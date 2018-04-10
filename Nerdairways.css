@@ -1,0 +1,37 @@
+body{
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-color: #323232;
+	margin-top: 10px;
+}
+
+#page{
+	background-color: blue;
+	width: 780px;
+	height: 500px;
+	margin:auto;
+	margin-top: 10px;
+}
+#rame{
+	background-color: white;
+	width: 700px;
+	margin: auto
+	
+}
+#header{
+	height:115px;
+	background-color:white;
+	border: 1px solid black;
+}
+
+#menu{
+	border: 2px solid gray;
+}
+
+#main{
+	
+}
+
+#fooder{
+	
+}
