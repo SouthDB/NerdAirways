@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-nav { text-align:center; background-color:blue; border-radius:10px; } 
-li { display:inline; padding:20px; }
-a { text-decoration:none; color:white; padding: 8px, 8px, 8px; }
-
-</style>
+<link rel="stylesheet" typoe="type/css" href="home.css">
 </head>
 <body>
-<header style="background-color:blue;padding:15px;text-align:center;margin-bottom:5px;"><h1 style="color:white;">NerdAirways</h1></header>
-<nav>
-	<ul style="height:50px;padding:8px,0px;margin:5px;">
+<header><h1>NerdAirways</h1></header>
+	<ul id="menu" class="navigation">
 	<li><a href="">Home</a></li>
 	<li><a href="">Flüge</a></li>
 	<li><a href="">Check-In</a></li>
 	<li><a href="">Bewertung</a></li>
 	</ul>
-</nav>
-<footer>
-	<ul style="height:50px;padding:8px,0px;margin:5px;background-color:red;">
+
+	<div class="right">
+		<form>
+		<input type="text" name="username" placeholder="Benutzername"/><br>
+		<input type="password" name="psw" placeholder="Passwort"/><br>
+		</form>
+		<ul>
+		<li class="rightli"><a href="">Login/Logout</a></li>
+		<li class="rightli"><a href="">Registrieren</a></li>
+		</ul>
+	</div>
+	<div class="meldungen"></div>
+	<div class="angebote"></div>
+<div>
+	<ul class="navigation">
 	<li><a href="">Impressum</a></li>
 	<li><a href="">Passagierrechte</a></li>
 	<li><a href="">Kontakt</a></li>
 	</ul>
-</footer>
+</div>
 </body>
 <html>
 
