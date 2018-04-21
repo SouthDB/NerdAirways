@@ -24,7 +24,6 @@ header {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 }
 
 li{
@@ -43,4 +42,11 @@ a {
 }
 .rightli {
 	display: table;
+}
+
+.rbut {
+	height: 20px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 0;
 }
