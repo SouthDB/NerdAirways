@@ -137,9 +137,10 @@ h {
     border-color: grey;
     overflow: hidden;
     padding: 25px;
+   
 }
 
 .specificnote img {
     float: right;
-    padding: 25px;
+    padding: 0px 25px 25px 25px;
  }
