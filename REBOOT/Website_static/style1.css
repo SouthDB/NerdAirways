@@ -117,8 +117,9 @@ input[type=submit]:hover {
 }
 
 .notes {
-    background-color: rgb(194, 194, 255);
-    padding: 20px;
+    background-color: rgb(208, 208, 255);
+    padding: 25px;
+ 
     margin: 0;
 }
 
@@ -127,12 +128,12 @@ input[type=submit]:hover {
 }
 
 .specificnote {
-    width: 95%;
-    border-style: dotted;
-    border-color: grey;
+    width: 96%;
+    border: 1px dashed grey;
     overflow: hidden;
-    padding: 25px;
+    padding: 20px;
     margin-top: 10px;
+    background-color:  rgb(208, 208, 255);
 }
 
 .specificnote img {
@@ -141,8 +142,11 @@ input[type=submit]:hover {
 }
 
 .ad {
-    background-color: rgb(208, 208, 255);
+    /*background-color: rgb(208, 208, 255);*/
+    background-image: url("beach_1.jpg");
+    background-position: bottom;
     padding: 20px;
+    color: white;
 }
 
 .table {
