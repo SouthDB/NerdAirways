@@ -1,0 +1,26 @@
+NerdAirways
+-----------
+
+>>Organisation
+
+Bescheid geben an welchen html file gearbeitet wird und unten eintragen! ->> Gleiches gilt fuer  Style1.css
+Bitte auf die gegeben Klassen und Bereiche achten!
+Ansagen wenn etwas hochgeladen wird! - Außer wenn die Liste unten gut genutzt wird
+Damit es zu wenig überschneidungen kommen haben wir für jeden ein css file die jewals in allen html Dateien eingebunden sind. (Einbindung Style5 fehlt noch)
+Regelmäßig fetchen und pullen!
+Veränderte README Datei einzeln hochladen. (bei changes auswählen)
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Style2.css  (Dave)
+Style3.css  (Daniel)
+Style4.css  (Manu)
+Style5.css  (Simon)
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Aktuell:
+Style1.css (Frei)
+flight.html (Daniel)
+home.html (Dave)
+Registrierung (Dave)
