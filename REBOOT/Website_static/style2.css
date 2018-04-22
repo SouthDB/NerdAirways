@@ -2,11 +2,13 @@
 footer {
 	background-color: rgb(194, 194, 255);
 	text-align: center;
-	width: 100%
+	width: 100%;
+	padding: 1% 0;
 }
 
 .foot {
 	margin: 0;
+	list-style-type: none;
 }
 
 .lastline {
