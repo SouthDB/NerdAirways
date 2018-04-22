@@ -22,6 +22,21 @@ header {
     font-family: arial;
 }
 
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
     list-style-type: none;
     margin: 0%;
@@ -115,22 +130,10 @@ input[type=submit]:hover {
     margin: 0;
 }
 
-.offer {
-    background-color: rgb(208, 208, 255);
-    padding: 20px;
-}
-
-h {
-    margin: 0;
-    padding: 0;
-}
-
-.notes{
-}
-
 .notes img {
     width: 300px;
 }
+
 .specificnote {
     width: 95%;
     border-style: dotted;
@@ -138,10 +141,14 @@ h {
     overflow: hidden;
     padding: 25px;
     margin-top: 10px;
-   
 }
 
 .specificnote img {
     float: right;
     padding: 0px 25px 25px 25px;
- }
+}
+
+.offer {
+    background-color: rgb(208, 208, 255);
+    padding: 20px;
+}
