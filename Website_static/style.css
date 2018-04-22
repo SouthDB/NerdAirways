@@ -113,8 +113,6 @@ input[type=submit]:hover {
     background-color: rgb(194, 194, 255);
     padding: 20px;
     margin: 0;
-
-
 }
 
 .offer {
@@ -127,8 +125,21 @@ h {
     padding: 0;
 }
 
-.notes img {
-    float: right;
-    width: 450px;
-    padding-left: 20px;
+.notes{
 }
+
+.notes img {
+    width: 300px;
+}
+.specificnote {
+    width: 95%;
+    border-style: dotted;
+    border-color: grey;
+    overflow: hidden;
+    padding: 25px;
+}
+
+.specificnote img {
+    float: right;
+    padding: 25px;
+ }
