@@ -16,3 +16,12 @@ footer {
 
 
 /* signup */
+.signup {
+	width: 100%;
+	margin: 5%;
+}
+
+.suinputs {
+	margin: 5% 5% 5% 0;
+}
+
