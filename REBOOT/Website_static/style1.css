@@ -144,3 +144,32 @@ input[type=submit]:hover {
     background-color: rgb(208, 208, 255);
     padding: 20px;
 }
+
+.table {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    width: 100%;
+    padding: 25px;
+    margin-top: 10px;
+    background-color:  rgb(194, 194, 255);
+    text-align: left;
+}
+
+.table_head{
+    background-color: rgb(95, 95, 245);
+    color: white;
+}
+
+.table tr, .table th, .table td{
+    /*border: 1px solid rgb(0, 0, 0);*/
+    padding: 25px;
+}
+
+.flyoffer {
+    background-color: rgb(208, 208, 255);
+    padding: 25px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #ffffff;
+}
