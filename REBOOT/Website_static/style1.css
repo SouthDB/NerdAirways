@@ -157,18 +157,3 @@ input[type=submit]:hover {
     background-color: rgb(208, 208, 255);
     padding: 20px;
 }
-.table {
-    border: 5px solid rgb(0, 0, 0);
-    width: 100%;
-}
-
-.table_head {}
-
-.table tr, .table th {
-    border: 1px solid rgb(0, 0, 0);
-    padding: 8px;
-}
-
-.flyoffer {
-    background-color: rgb(208, 208, 255);
-}
