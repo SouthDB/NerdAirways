@@ -46,7 +46,7 @@ header {
     background-color: rgb(70, 70, 255);
 }
 
-.navlink a.active{
+.navlink a.active {
     background-color: rgb(70, 70, 255);
 }
 
@@ -112,6 +112,9 @@ input[type=submit]:hover {
 .notes {
     background-color: rgb(194, 194, 255);
     padding: 20px;
+    margin: 0;
+
+
 }
 
 .offer {
@@ -122,4 +125,10 @@ input[type=submit]:hover {
 h {
     margin: 0;
     padding: 0;
+}
+
+.notes img {
+    float: right;
+    width: 450px;
+    padding-left: 20px;
 }
