@@ -8,6 +8,7 @@ Bitte auf die gegeben Klassen und Bereiche achten!
 Ansagen wenn etwas hochgeladen wird!
 Damit es zu wenig überschneidungen kommen haben wir für jeden ein css file die jewals in allen html Dateien eingebunden sind.
 Regelmäßig fetchen und pullen!
+Veränderte README Datei einzeln hochladen. (bei changes auswählen)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
