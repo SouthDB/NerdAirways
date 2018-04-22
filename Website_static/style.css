@@ -69,8 +69,24 @@ h4 {
     float: right;
     padding: 0;
     margin: 0%;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 20%;
+    padding-bottom: 15%;
+    border-left-style: groove;
+=======
     width: 25%;
     border-left-style: solid;
+>>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
+=======
+    width: 25%;
+    border-left-style: solid;
+>>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
+=======
+    width: 25%;
+    border-left-style: solid;
+>>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
     border-color: gray;
     border-width: 3px;
     box-sizing: border-box;
@@ -120,6 +136,26 @@ input[type=submit]:hover {
 }
 
 .central {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	width: 80%;
+	float: left;
+	background-color: red;
+}
+
+footer {
+	background-color: yellow;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+}
+=======
+=======
+>>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
+=======
+>>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
     margin: 0;
     width: 75%;
 }
@@ -146,9 +182,22 @@ input[type=submit]:hover {
 .specificnote img {
     float: right;
     padding: 0px 25px 25px 25px;
+<<<<<<< HEAD
 }
 
 .offer {
     background-color: rgb(208, 208, 255);
     padding: 20px;
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ }
+>>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
+=======
+ }
+>>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
+=======
+ }
+>>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
+>>>>>>> fc7ed69d88490ea7e1b2f66d4c5f8978050e7495
