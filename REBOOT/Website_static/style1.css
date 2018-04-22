@@ -157,6 +157,7 @@ input[type=submit]:hover {
     background-color: rgb(208, 208, 255);
     padding: 20px;
 }
+<<<<<<< HEAD
 /* footer */
 footer {
 	background-color: rgb(194, 194, 255);
@@ -179,6 +180,9 @@ li {
 	margin:0;
 	text-decoration: none;
 }
+=======
+
+>>>>>>> a8875f9fb9cced92e78435ec4b511bce7fa3dfa7
 .table {
     border: 5px solid rgb(0, 0, 0);
     width: 100%;
