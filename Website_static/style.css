@@ -1,0 +1,56 @@
+body {
+    margin: 0%;
+}
+
+header {
+    background-image: url("airplane_1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+#headline {
+    text-align: center;
+    margin-top: 0%;
+    color: white;
+    font-size: 300%;
+    width: 100%;
+    font-family: "Segoe UI", arial;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: rgb(95, 95, 245);
+}
+
+.navlink {
+    float: left;
+}
+
+.navlink a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+.navlink a:hover {
+    background-color: rgb(70,70,255);
+}
+
+.rightbar {
+    float: right;
+    padding: 0;
+    margin: 0%;
+    width: 20%;
+    height: 500px;
+    border-left-style: groove;
+    border-color: gray;
+    background-color: white;
+}
