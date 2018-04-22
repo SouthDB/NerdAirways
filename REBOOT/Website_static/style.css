@@ -1,0 +1,145 @@
+body {
+    margin: 0%;
+    font-family: arial;
+    color: black
+}
+
+header {
+    background-image: url("airplane_1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+#headline {
+    text-align: center;
+    margin-top: 0%;
+    color: white;
+    font-size: 300%;
+    width: 100%;
+    font-family: arial;
+}
+
+h {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: rgb(95, 95, 245);
+}
+
+.navlink {
+    float: left;
+}
+
+.navlink a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+.navlink a:hover {
+    background-color: rgb(70, 70, 255);
+}
+
+.navlink a.active {
+    background-color: rgb(70, 70, 255);
+}
+
+.rightbar {
+    float: right;
+    padding: 0;
+    margin: 0%;
+    width: 25%;
+    border-left-style: solid;
+    border-color: gray;
+    border-width: 3px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    background-color: white;
+    overflow: scroll;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #5F5FF5;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #5F5FF5;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #5F5FF5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #4646F5;
+}
+
+.creds {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.central {
+    margin: 0;
+    width: 75%;
+}
+
+.notes {
+    background-color: rgb(194, 194, 255);
+    padding: 20px;
+    margin: 0;
+}
+
+.notes img {
+    width: 300px;
+}
+
+.specificnote {
+    width: 95%;
+    border-style: dotted;
+    border-color: grey;
+    overflow: hidden;
+    padding: 25px;
+    margin-top: 10px;
+   
+}
+
+.specificnote img {
+    float: right;
+    padding: 0px 25px 25px 25px;
+ }
+
+ .offer {
+    background-color: rgb(208, 208, 255);
+    padding: 20px;
+}
