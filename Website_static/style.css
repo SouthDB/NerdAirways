@@ -56,9 +56,14 @@ header {
     margin: 0%;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 20%;
     padding-bottom: 15%;
     border-left-style: groove;
+=======
+    width: 25%;
+    border-left-style: solid;
+>>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
 =======
     width: 25%;
     border-left-style: solid;
@@ -118,6 +123,7 @@ input[type=submit]:hover {
 .central {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 80%;
 	float: left;
 	background-color: red;
@@ -131,6 +137,8 @@ footer {
 	position: absolute;
 }
 =======
+=======
+>>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
 =======
 >>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
     margin: 0;
@@ -173,6 +181,10 @@ h {
     float: right;
     padding: 0px 25px 25px 25px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+ }
+>>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
+=======
  }
 >>>>>>> 70135a30215a2a91ee5da39d737a8fa77ffdc7e4
 =======
