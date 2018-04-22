@@ -48,9 +48,10 @@ header {
     float: right;
     padding: 0;
     margin: 0%;
-    width: 20%;
-    height: 500px;
+    width: 25%;
+    padding-bottom: 100%;
     border-left-style: groove;
     border-color: gray;
     background-color: white;
+    overflow: scroll;
 }
