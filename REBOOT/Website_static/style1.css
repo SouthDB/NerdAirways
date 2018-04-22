@@ -75,7 +75,6 @@ h5 {
     padding: 0;
     margin: 0%;
     width: 25%;
- 
     margin-left: 1%;
     background-color: white;
     overflow: scroll;
@@ -128,7 +127,6 @@ input[type=submit]:hover {
     border-color: gray;
     border-width: 3px;
     box-sizing: border-box;
-
 }
 
 .notes {
@@ -148,7 +146,6 @@ input[type=submit]:hover {
     overflow: hidden;
     padding: 25px;
     margin-top: 10px;
-   
 }
 
 .specificnote img {
