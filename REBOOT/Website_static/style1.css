@@ -80,17 +80,7 @@ h5 {
     overflow: hidden;
 }
 
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #5F5FF5;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-input[type=password] {
+.inputs {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -101,13 +91,10 @@ input[type=password] {
 }
 
 input[type=submit] {
-    width: 100%;
     background-color: #5F5FF5;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
     border: none;
-    border-radius: 5px;
 }
 
 input[type=submit]:hover {
