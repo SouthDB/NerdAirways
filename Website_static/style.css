@@ -92,7 +92,7 @@ h4 {
     box-sizing: border-box;
     margin-left: 1%;
     background-color: white;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 input[type=text] {
