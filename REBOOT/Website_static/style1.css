@@ -151,9 +151,46 @@ input[type=submit]:hover {
 .specificnote img {
     float: right;
     padding: 0px 25px 25px 25px;
- }
+}
 
- .ad {
+.ad {
     background-color: rgb(208, 208, 255);
     padding: 20px;
+}
+/* footer */
+footer {
+	background-color: rgb(194, 194, 255);
+	text-align: center;
+	width: 100%
+}
+
+.foot {
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px 10%;
+}
+
+.lastline {
+	margin:0;
+	text-decoration: none;
+}
+.table {
+    border: 5px solid rgb(0, 0, 0);
+    width: 100%;
+}
+
+.table_head {}
+
+.table tr, .table th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+}
+
+.flyoffer {
+    background-color: rgb(208, 208, 255);
 }
