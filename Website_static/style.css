@@ -46,6 +46,10 @@ header {
     background-color: rgb(70, 70, 255);
 }
 
+.navlink a.active{
+    background-color: rgb(70, 70, 255);
+}
+
 .rightbar {
     float: right;
     padding: 0;
@@ -116,6 +120,6 @@ input[type=submit]:hover {
 }
 
 h {
-    margin: 0%;
+    margin: 0;
     padding: 0;
 }
