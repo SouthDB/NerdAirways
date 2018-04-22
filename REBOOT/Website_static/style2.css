@@ -18,18 +18,24 @@ footer {
 /* signup */
 .signup {
 	width: 100%;
-	margin: 5%;
+	margin: 5% 0;
 	border-right: none;
-	display: block;
 }
 
 .signupbody {
-	width: 90%;
-	display: block;
+	
 }
 
-.suinputs {
-	margin: 5% 5% 5% 0;
-	width:40%;
+.su {
+	margin: 5% 5% 5% 5%;
+	text-align: center;
 }
 
+.signuptable {
+	width: 100%;
+}
+
+.suinput {
+	width: 50%;
+	margin: 5% 5% 0 5%;
+}
