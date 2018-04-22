@@ -1,5 +1,6 @@
 body {
     margin: 0%;
+    font-family: arial;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
     color: white;
     font-size: 300%;
     width: 100%;
-    font-family: "Segoe UI", arial;
+    font-family: arial;
 }
 
 .navbar {
