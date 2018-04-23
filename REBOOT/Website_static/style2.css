@@ -29,7 +29,8 @@ footer {
 }
 
 .su {
-	margin: 5% 5% 5% 5%;
+	/*margin: 5% 5% 5% 5%;*/
+	padding: 25px;
 	text-align: center;
 }
 
@@ -46,7 +47,8 @@ footer {
 .booking {
 	width: 75%;
 	text-align: center;
-	margin-top: 5%;
+	margin-top: 0%;
+	padding-top: 25px;
 }
 
 .bk {
