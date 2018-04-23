@@ -22,6 +22,24 @@
     margin: 5% 5% 0 5%;
 }
 
+ .buttonwidth {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #5F5FF5;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/*
+input[type=submit] {
+    background-color: #5F5FF5;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+}*/
+
+
 .confirm p{
     text-align: center;
     width: 100%;
