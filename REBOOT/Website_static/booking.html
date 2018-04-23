@@ -31,17 +31,71 @@
         <div class="creds">
             <form action="">
                 <label for="user">Benutzername</label>
-                <input type="text" id="user" name="benutzername" placeholder="Benutzername...">
+                <input class="inputs" type="text" id="user" name="benutzername" placeholder="Benutzername...">
                 <label for="passwd">Passwort</label>
-                <input type="password" id="passwd" name="passwort" placeholder="Passwort...">
-                <input type="submit" value="Login">
-                <input type="submit" value="Registrieren">
+                <input class="inputs" type="password" id="passwd" name="passwort" placeholder="Passwort...">
+                <input class="inputs" type="submit" value="Login">
+                <input class="inputs" type="submit" value="Registrieren">
                 <!-- glaube button ist besser -->
             </form>
         </div>
     </div>
-    <div class="central">
+    
+	<div class="central booking">
+		<h2>Flug: XXX nach YYY<br>TT.MM.JJ, SS.MM</h2><hr>
+		
+		<div class="su"><h3>Leistungen</h3>
+					<table class="bk">
+			<tr>	<!-- ka warum die jetzt anders sind als die da oben... -->
+			<td><select class="inputs suinput" name="class"><option value="econ">Economy</option><option name="busi">Business</option></select></td>
+			<td><select class="inputs suinput" name="lugg"><option value="tar1">Tarif 1</option><option name="tar2">Tarif 2</option></select></td>
+			</tr>
+			</table>
+		</div><hr>
+	
+		<div class="su"><h3>Daten</h3>
+					<table class="bk">
+				<tr>
+					<td><select class="inputs suinput" name="salutation"><option value="herr">Herr</option><option name="frau">Frau</option></select></td>
+					<td><p>Jetzt <span><a href="signup.html">registrieren</a></span> und Daten<br>für das nächste Mal speichern!</p></td>
+				</tr>
+				<tr>
+					<td><input type="text" class="inputs suinput" name="forname" placeholder="Vorname"></td>
+					<td><input type="text" class="inputs suinput" name="lastname" placeholder="Nachname"></td>
+				<tr>
+				</tr>
+					<td><input type="text" class="inputs suinput" name="address" placeholder="Adresse"></td>
+					<td><input type="text" class="inputs suinput" name="country" placeholder="Land"></td>
+				<tr>
+				</tr>
+					<td><input type="text" class="inputs suinput" name="city" placeholder="Stadt"></td>
+					<td><input type="number" class="inputs suinput" name="postalcode" placeholder="Postleitzahl"></td>
+				<tr>
+				</tr>
+					<td><input type="date" class="inputs suinput" name="birthdate" placeholder="Geburtsdatum"></td>
+					<td><input type="email" class="inputs suinput" name="e-mail" placeholder="E-Mail-Adresse"></td>
+				</tr>
+			</table>
+		</div><hr>
+	
+		<div class="su"><h3>Zahlung & Buchen</h3>
+					<table class="bk">
+			<tr>	<!-- ka warum die jetzt anders sind als die da oben... -->
+			<td><select class="inputs suinput" name="paymentmethod"><option value="Zaa">Zahlungsart a</option><option name="Zab">Zahlungsart b</option></select></td>
+			<td><input class="inputs suinput" type="submit" value="Buchen"></td>
+			</tr>
+			</table>
+		</div>
+	
     </div>
+		<footer>
+		<div>
+			<ul class="foot">
+			<li><p class="lastline"><a class="lastline" href="https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_de.htm">Passagierrechte</a></p></li>
+			<li><p class="lastline">Copyright 2018, NerdAirways Inc., Jakobstraße 5, 72458 Albstadt, Germany</li>
+			</ul>
+		</div>
+	</footer>
 </body>
 
 </html>
