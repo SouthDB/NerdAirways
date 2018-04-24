@@ -3,7 +3,8 @@ footer {
 	background-color: rgb(194, 194, 255);
 	text-align: center;
 	width: 100%;
-	padding: 1% 0;
+	padding: 1.5% 0;
+
 }
 
 .foot {
@@ -11,9 +12,17 @@ footer {
 	list-style-type: none;
 }
 
+.footli {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 0 5%;
+}
+
 .lastline {
 	margin:0;
 	text-decoration: none;
+
 }
 
 
@@ -22,10 +31,6 @@ footer {
 	width: 100%;
 	margin: 5% 0;
 	border-right: none;
-}
-
-.signupbody {
-	
 }
 
 .su {
