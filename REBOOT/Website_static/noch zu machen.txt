@@ -1,5 +1,7 @@
-Impressum neu, muss auf jeder Seite erreichbar sein
-AGB auch auf jeder Seite im Footer
+Pflichtenheft neu
+
+Impressum neu, muss auf jeder Seite erreichbar sein (macht David gerade)
+AGB auch auf jeder Seite im Footer (macht David gerade)
 
 flight.html:
 	sortieren soll möglich sein z.B. nach Preis
