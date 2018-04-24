@@ -12,9 +12,8 @@ footer {
 	list-style-type: none;
 }
 
-.footli {
+.foot li {
 	display: inline-block;
-	color: white;
 	text-align: center;
 	padding: 0 5%;
 }
@@ -60,4 +59,17 @@ footer {
 	width: 100%;
 }
 
+/* Impressum */
+.imp {
+	background-color: rgb(208, 208, 255);
+	padding-top: 3%;
+	text-align: center;
+}
 
+.impbody {
+	text-align: left;
+	padding: 5% 10%;
+	width: 60%;
+	padding: 3% 15%;
+	margin: 0 10%
+}
