@@ -1,0 +1,59 @@
+------------------------------------------------------------------------------------------------------------------------------------------
+Aufgaben und Verbesserungen
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+WICHTIG
+------------------------------------------------------------------------------------------------------------------------------------------
+<<DEADLINE>> 28.04.2018 16:00 Uhr
+
+Pflichtengeft:
+    - Beispiel: siehe HDNET-Lastenheft_Beispiel_Musterfirma_GmbH.docx (muss natürlich nicht so umfangreich sein)
+    - https://www.onlinemarketing-praxis.de/webdesign-webentwicklung/lastenheft-anforderungen-fuer-die-webentwicklung-definieren
+
+Deantenbanekenmodellierung:
+
+Seiten Anpassungen:
+    <<fligth.html>>
+        - Möglichkeit Kategorien auf und absteigend zu sortieren
+        - Preis ab
+
+    <<booking.html>>
+        - Preis anzeigen (mit Steuern)
+        - Preis zuschläge (Tarife) anzeigen usw
+        - FLugnummer von nach etc
+        - Je nach Zahlungsart Felder anpassen
+        - AGB Checkbox
+
+    <<Review.html>>
+        - Kommentarliste anzeigen mit Datum, Uhrzeit, usw
+    
+    <<Kundenkonto Bereich anlegen>>
+        - Übersicht der hinterlegen Daten und gebuchter Flüge
+
+    <<home.html>>
+        - Bereich anlgen für aktuelle Fluginformationen
+        - Tabelle Flugx von nach zeit status
+    
+    <<Allegemein>>
+        - Reihenfolge der eingabe Felder überdenken
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Allgemein
+------------------------------------------------------------------------------------------------------------------------------------------
+
+CSS Files
+    - Zu Style1 zusammen fassen
+    - Klassen sortieren und zusammenlegen
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Vorbereitung
+------------------------------------------------------------------------------------------------------------------------------------------
+Dynamische Seiten
+    - JavaSribt
+    - Konzepte
+    - usw    
+    
+
