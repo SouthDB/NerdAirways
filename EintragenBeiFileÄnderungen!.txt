@@ -9,7 +9,6 @@ CSS FILES
 Beispiel: <<style3.css>> Daniel
 
 
-<<style1.css>> Daniel
 <<style2.css>> David
 
 ---------------------------------------------
@@ -27,7 +26,6 @@ HTML FILES
 ---------------------------------------------
 Beispiel: <<home.html>> Daniel
 
-<<home.html>> Daniel
 <<signup.html>> David
 
 
