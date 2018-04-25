@@ -11,34 +11,12 @@ WICHTIG
 Pflichtengeft:
     - Beispiel: siehe HDNET-Lastenheft_Beispiel_Musterfirma_GmbH.docx (muss natürlich nicht so umfangreich sein)
     - https://www.onlinemarketing-praxis.de/webdesign-webentwicklung/lastenheft-anforderungen-fuer-die-webentwicklung-definieren
+    - Sammlung_Pflichtenheft -> Ordentlich und Strukturieret in Word umschreiben
 
 Deantenbanekenmodellierung:
 
 Seiten Anpassungen:
-    <<fligth.html>>
-        - Möglichkeit Kategorien auf und absteigend zu sortieren
-        - Preis ab
-
-    <<booking.html>>
-        - Preis anzeigen (mit Steuern)
-        - Preis zuschläge (Tarife) anzeigen usw
-        - FLugnummer von nach etc
-        - Je nach Zahlungsart Felder anpassen
-        - AGB Checkbox
-
-    <<Review.html>>
-        - Kommentarliste anzeigen mit Datum, Uhrzeit, usw
-    
-    <<Kundenkonto Bereich anlegen>>
-        - Übersicht der hinterlegen Daten und gebuchter Flüge
-
-    <<home.html>>
-        - Bereich anlgen für aktuelle Fluginformationen
-        - Tabelle Flugx von nach zeit status
-    
-    <<Allegemein>>
-        - Reihenfolge der eingabe Felder überdenken
-
+    - Siehe Sammlung_Pflichtenheft (Alles was fehlt muss noch inplementiert werden)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 Allgemein - Wiederholend

@@ -30,6 +30,7 @@ Flüge
     Bereich
         Flug-Angebote(Überschrift)
         Tabelle -> Flugnummer, Von, Nach, Datum, Abflug, Ankunft, Preis(ab), Auslastung, Buchunng(Link auf Buchungsseite)
+        -> Möglichkeit aufsteigend zu sortieren (Flugnummer, Von, Nach, Datum, Abflug, Ankunft) (Links in Kopfzeile) //Nicht relevant in Statischer Seite!
 
 Buchung
 -------
