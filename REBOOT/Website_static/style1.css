@@ -58,25 +58,21 @@ h5 {
     float: right;
 }
 
-.navlink a, .navlink2 a{
+.navlink a, .navlink2 a {
     display: block;
     color: white;
-  
     text-align: center;
     padding: 20px 50px;
     text-decoration: none;
 }
 
-.navlink a:hover , .navlink2 a:hover{
+.navlink a:hover, .navlink2 a:hover {
     background-color: rgb(70, 70, 255);
 }
 
-.navlink a.active , .navlink2 a.active{
+.navlink a.active, .navlink2 a:active {
     background-color: rgb(70, 70, 255);
 }
-
-
-
 
 .rightbar {
     float: right;
@@ -98,9 +94,8 @@ h5 {
     box-sizing: border-box;
 }
 
-
 input[type=submit] {
-/* erstmal noch stehen lassen
+    /* erstmal noch stehen lassen
     background-color: #5F5FF5;
     color: white;
     padding: 14px 20px;
@@ -113,15 +108,15 @@ input[type=submit] {
     cursor: pointer;
 }
 
-
 input[type=submit]:hover {
     background-color: rgb(70, 70, 255);
 }
 
 .rightinput {
     width: 200px;
-    margin-right: 25px 
+    margin-right: 25px
 }
+
 .creds {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -131,6 +126,7 @@ input[type=submit]:hover {
 .central {
     margin: 0;
     width: 100%;
+    background-color: rgb(208, 208, 255);
     /*
     border-right-style: solid;
     border-color: gray;
@@ -141,7 +137,6 @@ input[type=submit]:hover {
 .notes {
     background-color: rgb(208, 208, 255);
     padding: 25px;
- 
     margin: 0;
 }
 
@@ -156,7 +151,7 @@ input[type=submit]:hover {
     overflow: hidden;
     padding: 20px;
     margin-top: 10px;
-    background-color:  rgb(238, 238, 255);
+    background-color: rgb(238, 238, 255);
 }
 
 .specificnote img {
@@ -178,16 +173,16 @@ input[type=submit]:hover {
     width: 100%;
     padding: 25px;
     margin-top: 10px;
-    background-color:  rgb(194, 194, 255);
+    background-color: rgb(194, 194, 255);
     text-align: left;
 }
 
-.table_head{
+.table_head {
     background-color: rgb(95, 95, 245);
     color: white;
 }
 
-.table tr, .table th, .table td{
+.table tr, .table th, .table td {
     /*border: 1px solid rgb(0, 0, 0);*/
     padding: 25px;
 }

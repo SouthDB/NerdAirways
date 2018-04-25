@@ -1,0 +1,35 @@
+---------------------------------------------
+Aktive Benutzung
+---------------------------------------------
+
+
+---------------------------------------------
+CSS FILES
+---------------------------------------------
+Beispiel: <<style3.css>> Daniel
+
+<<style3.css>> Daniel
+<<style1.css>> Daniel
+<<style2.css>> Daniel
+
+---------------------------------------------
+CSS FILES Default
+---------------------------------------------
+<<style1.css>> main
+<<style2.css>> Dave
+<<style3.css>> Daniel
+<<style4.css>> Manu
+<<style5.css>> Simon
+
+
+---------------------------------------------
+HTML FILES
+---------------------------------------------
+Beispiel: <<home.html>> Daniel
+<<signup>> Daniel
+
+
+---------------------------------------------
+Weiteres
+---------------------------------------------
+Beispiel: <<Pflichtenheft.docx>> Daniel

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="de-de">
+
+<head>
+    <title>NerdAirways</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <link rel="stylesheet" type="text/css" href="style4.css">
+    <link rel="stylesheet" type="text/css" href="style5.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
+
+<body>
+    <header>
+        <h1 id="headline">NerdAirways</h1>
+    </header>
+    <ul class="navbar">
+        <li class="navlink">
+            <a href="home.html">Home</a>
+        </li>
+        <li class="navlink">
+            <a href="flight.html">Flüge</a>
+        </li>
+        <li class="navlink">
+            <a href="review.html">Rezensionen</a>
+        </li>
+        <li class="navlink2">
+            <input class="rightinput inputs" type="password" id="passwd" name="passwort" placeholder="Passwort..."> </li>
+        <li class="navlink2">
+            <input class="rightinput inputs" type="text" id="user" name="benutzername" placeholder="Benutzername..."> </li>
+        <li class="navlink2">
+            <input type="submit" value="Login"> </li>
+        <li class="navlink2">
+            <a href="signup.html">Registrieren</a>
+        </li>
+        <li class="navlink2 navlink">
+            <a class="active" href="account.html">Mein Konto</a>
+        </li>
+    </ul>
+    <div class="central">
+        <div class="row">
+            <div class="user_data">
+                <h2>Kundenkonto</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="user">Benutzername</label>
+                            <br>
+                            <input type="text" class="inputs suinput" id="user" name="benutzername" placeholder="Benutzername"> </td>
+                        <td>
+                            <label for="passwd">Passwort</label>
+                            <br>
+                            <input type="password" class="inputs suinput" id="passwd" name="passwort" placeholder="Passwort"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="salutation">Anrede</label>
+                            <br>
+                            <select class="inputs suinput" name="salutation">
+                                <option value="herr">Herr</option>
+                                <option name="frau">Frau</option>
+                            </select>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="firstname">Vorname</label>
+                            <br>
+                            <input type="text" class="inputs suinput" name="forname" placeholder="Vorname"> </td>
+                        <td>
+                            <label for="lastname">Nachname</label>
+                            <br>
+                            <input type="text" class="inputs suinput" name="lastname" placeholder="Nachname"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="address">Adresse</label>
+                            <br>
+                            <input type="text" class="inputs suinput" name="address" placeholder="Adresse"> </td>
+                        <td>
+                            <label for="pc">Postleitzahl</label>
+                            <br>
+                            <input type="number" class="inputs suinput" name="postalcode" placeholder="Postleitzahl"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="city">Stadt</label>
+                            <br>
+                            <input type="text" class="inputs suinput" name="city" placeholder="Stadt"> </td>
+                        <td>
+                            <label for="country">Land</label>
+                            <br>
+                            <input type="text" class="inputs suinput" name="country" placeholder="Land"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="birthdate">Geburtsdatum</label>
+                            <br>
+                            <input type="date" class="inputs suinput" name="birthdate" placeholder="Geburtsdatum"> </td>
+                        <td>
+                            <label for="email">E-Mail-Adresse</label>
+                            <br>
+                            <input type="email" class="inputs suinput" name="e-mail" placeholder="E-Mail-Adresse"> </td>
+                    </tr>
+                </table>
+                <br>
+                <h3>Zahlungsinformationen</h3>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Karteninhaber</label>
+                            <br>
+                            <input type="text" class="inputs suinput" id="cname" name="cardname" placeholder="Karteninhaber"> </td>
+                        <td>
+                            <label>Kreditkartennummer</label>
+                            <br>
+                            <input type="number" class="inputs suinput" name="cardnum" minlength="12" maxlength="16" placeholder="Kreditkartennummer"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gültig bis</label>
+                            <br>
+                            <input type="month" class="inputs suinput" name="expdate" placeholder="April 2018"> </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="change_data">
+                <h2>Benutzerdaten ändern</h2>
+                <form action="AccountData_confirm.html" method="get">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="user">Benutzername</label>
+                            <br>
+                            <input type="text" class="inputs suinput" id="user" name="benutzername" placeholder="Benutzername"> </td>
+                        <td>
+                            <label for="passwd">Passwort</label>
+                            <br>
+                            <input type="password" class="inputs suinput" id="passwd" name="passwort" placeholder="Passwort"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="salutation">Anrede</label>
+                            <br>
+                            <select class="inputs suinput" name="salutation">
+                                <option value="herr">Herr</option>
+                                <option name="frau">Frau</option>
+                            </select>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="firstname">Vorname</label>
+                            <br>
+                            <input type="text" class="inputs suinput" name="forname" placeholder="Vorname"> </td>
+                        <td>
+                            <label for="lastname">Nachname</label>
+                            <br>
+                            <input type="text" class="inputs suinput" name="lastname" placeholder="Nachname"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="address">Adresse</label>
+                            <br>
+                            <input type="text" class="inputs suinput" name="address" placeholder="Adresse"> </td>
+                        <td>
+                            <label for="pc">Postleitzahl</label>
+                            <br>
+                            <input type="number" class="inputs suinput" name="postalcode" placeholder="Postleitzahl"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="city">Stadt</label>
+                            <br>
+                            <input type="text" class="inputs suinput" name="city" placeholder="Stadt"> </td>
+                        <td>
+                            <label for="country">Land</label>
+                            <br>
+                            <input type="text" class="inputs suinput" name="country" placeholder="Land"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="birthdate">Geburtsdatum</label>
+                            <br>
+                            <input type="date" class="inputs suinput" name="birthdate" placeholder="Geburtsdatum"> </td>
+                        <td>
+                            <label for="email">E-Mail-Adresse</label>
+                            <br>
+                            <input type="email" class="inputs suinput" name="e-mail" placeholder="E-Mail-Adresse"> </td>
+                    </tr>
+                </table>
+                <br>
+                <h3>Zahlungsinformationen</h3>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Karteninhaber</label>
+                            <br>
+                            <input type="text" class="inputs suinput" id="cname" name="cardname" placeholder="Karteninhaber"> </td>
+                        <td>
+                            <label>Kreditkartennummer</label>
+                            <br>
+                            <input type="number" class="inputs suinput" name="cardnum" minlength="12" maxlength="16" placeholder="Kreditkartennummer"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gültig bis</label>
+                            <br>
+                            <input type="month" class="inputs suinput" name="expdate" placeholder="April 2018"> </td>
+                        <td>
+                            <label>Ich habe die
+                                <a class="lastline" href="https://www.lufthansa.com/online/portal/lh/cmn/generalinfo?nodeid=1761532&l=de">AGB</a> gelesen.</label>
+                            <input type="checkbox" name="agb" value="AGB"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="inputs suinput" type="submit" value="Daten aktualisieren"> </td>
+                    </tr>
+                </table>
+                </form>
+            </div>
+            <div class="user_booking">
+                <h2>Buchungen</h2>
+                <table class="table">
+                    <tr class="table_head">
+                        <th>Flugnummer</th>
+                        <th>Von</th>
+                        <th>Nach</th>
+                        <th>Datum</th>
+                        <th>Abflug</th>
+                        <th>Ankunft</th>
+                        <th>Preis</th>
+                        <th>Check-In</th>
+                    </tr>
+                    <tr>
+                        <td>45121151</td>
+                        <td>Brüssel</td>
+                        <td>Berlin</td>
+                        <td>04.05.2018</td>
+                        <td>04:00</td>
+                        <td>06:00</td>
+                        <td>70€</td>
+                        <td>
+                            <a href="checkin_confirm.html">Check-In</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12124512</td>
+                        <td>Brüssel</td>
+                        <td>Madrid</td>
+                        <td>01.05.2018</td>
+                        <td>06:00</td>
+                        <td>08:00</td>
+                        <td>50€</td>
+                        <td>
+                            <a href="checkin_confirm.html">Check-In</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>315125125</td>
+                        <td>Brüssel</td>
+                        <td>London</td>
+                        <td>25.04.2018</td>
+                        <td>08:00</td>
+                        <td>10:00</td>
+                        <td>50€</td>
+                        <td>
+                            <a href="checkin_confirm.html">Check-In</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--<label>CVC/CVV-Code</label>
+		<input type="number" class="inputs suinput" name="cvccvv" minlength="3" maxlength="3" placeholder="CVC/CVV-Code">-->
+    </div>
+    <footer>
+        <div>
+            <ul class="foot">
+                <li>
+                    <a class="lastline" href="https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_de.htm">Passagierrechte</a>
+                </li>
+                <li>
+                    <a class="lastline" href="impressum.html">Impressum</a>
+                </li>
+                <li>
+                    <a class="lastline" href="agb.html">AGB</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

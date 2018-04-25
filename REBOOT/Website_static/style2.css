@@ -1,0 +1,191 @@
+/* footer */
+
+footer {
+	background-color: rgb(194, 194, 255);
+	text-align: center;
+	width: 100%;
+	padding: 1.5% 0;
+}
+
+.foot {
+	margin: 0;
+	list-style-type: none;
+}
+
+.foot li {
+	display: inline-block;
+	text-align: center;
+	padding: 0 3%;
+}
+
+.lastline {
+	text-decoration: none;
+}
+
+/* signup */
+
+.signup {
+	width: 100%;
+	margin: 5% 0;
+	border-right: none;
+}
+
+.su {
+	/*margin: 5% 5% 5% 5%;*/
+	padding: 25px;
+	text-align: center;
+}
+
+.signuptable {
+	width: 100%;
+}
+
+.suinput {
+	width: 50%;
+	margin: 5% 5% 0 5%;
+}
+
+/* booking */
+
+.booking {
+	width: 75%;
+	text-align: center;
+	margin-top: 0%;
+	padding-top: 25px;
+}
+
+.bk {
+	width: 100%;
+}
+
+/* Impressum */
+
+.imp {
+	background-color: rgb(208, 208, 255);
+	padding-top: 3%;
+	text-align: center;
+}
+
+.impbody {
+	text-align: left;
+	padding: 5% 10%;
+	width: 60%;
+	padding: 3% 15%;
+	margin: 0 10%
+}
+
+/* signup & account */
+
+/*old
+.row {
+	width: 70%;
+	padding: 5% 15%;
+}
+*/
+
+.row {
+	width: 100%;
+	margin: 0;
+}
+
+.row h2 {
+	padding-top: 2%;
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+.row h3 {
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+.row table {
+	padding-left: 20%;
+	padding-bottom: 4%
+}
+
+.row input {
+	width: 500px;
+	margin: 2% 0 0 0;
+}
+
+.row select {
+	margin: 2% 0 0 0;
+}
+
+.row td {
+	padding: 0 25px 25px 25px;
+}
+
+/*account*/
+.user_data {
+	border-style: dashed;
+	border-color: rgb(0, 0, 0);
+	border-top-width: 3px;
+	border-bottom-width: 0px;
+	border-left-width: 0;
+	border-right-width: 0;
+	box-sizing: border-box;
+	background-color: rgb(208, 208, 255);
+}
+
+.change_data {
+	margin: 0;
+	border-style: dashed;
+	border-color: rgb(0, 0, 0);
+	border-top-width: 3px;
+	border-bottom-width: 0px;
+	border-left-width: 0;
+	border-right-width: 0;
+	box-sizing: border-box;
+	background-color: rgb(220, 220, 255);
+}
+
+.user_booking{
+	margin: 0;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	border-style: dashed;
+	border-color: rgb(0, 0, 0);
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 0;
+	border-right-width: 0;
+	box-sizing: border-box;
+	background-color: rgb(234, 234, 255);
+}
+
+.user_booking td {
+	padding: 25px;
+}
+/*fly note home.html*/
+
+.fly_notes {
+	background-color: rgb(208, 208, 255);
+	padding: 25px;
+}
+
+.fly_notes table {
+	border: 1px solid rgb(255, 0, 0);
+	border-collapse: collapse;
+	width: 100%;
+	padding: 25px;
+	margin-top: 10px;
+	background-color: rgb(248, 172, 172);
+	text-align: left;
+}
+
+.fly_notes th {
+	background-color: rgb(255, 45, 45);
+	color: white;
+}
+
+.fly_notes tr, .fly_notes th, .fly_notes td {
+	/*border: 1px solid rgb(0, 0, 0);*/
+	padding: 25px;
+}
+
+.fly_notes tr:nth-child(even) {
+	background-color: #ff8c8c;
+}
