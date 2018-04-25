@@ -57,3 +57,8 @@ footer {
 	width: 70%;
 	padding: 5% 15%;
 }
+
+.row input {
+	width: 500px;
+}
+
