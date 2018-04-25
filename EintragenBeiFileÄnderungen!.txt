@@ -8,7 +8,7 @@ CSS FILES
 ---------------------------------------------
 Beispiel: <<style3.css>> Daniel
 
-
+<<style3.css>> Daneil
 <<style2.css>> David
 
 ---------------------------------------------
