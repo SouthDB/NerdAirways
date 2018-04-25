@@ -24,7 +24,12 @@ CSS FILES Default
 ---------------------------------------------
 HTML FILES
 ---------------------------------------------
-
 Beispiel: <<home.html>> Daniel
 
 <<home.html>> Dave
+
+
+---------------------------------------------
+Weiteres
+---------------------------------------------
+Beispiel: <<Pflichtenheft.docx>> Daniel
