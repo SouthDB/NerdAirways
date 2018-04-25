@@ -21,7 +21,7 @@ Home
         Informationsartikel
             Überschrift, Text, Bild
         Flug-Meldungen
-            Tabelle -> Flugnummer, Von, Nach, Status, Aktueller Abflug, Aktuelle Ankunft
+            Tabelle -> Flugnummer, Von, Nach, Status, Aktueller Abflug, Aktuelle Ankunft -> sortiert nach Ankunft!
         Werbung
             Bild(Bildergalerie/Flow)
 
