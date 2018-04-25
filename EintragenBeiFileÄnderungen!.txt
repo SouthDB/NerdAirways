@@ -9,7 +9,7 @@ CSS FILES
 Beispiel: <<style3.css>> Daniel
 
 <<style2.css>> Dave
-<<style3.css>> Dave
+<<style1.css>> Dave
 
 ---------------------------------------------
 CSS FILES Default
