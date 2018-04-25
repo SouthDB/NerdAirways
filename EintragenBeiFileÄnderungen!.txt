@@ -26,8 +26,7 @@ HTML FILES
 ---------------------------------------------
 Beispiel: <<home.html>> Daniel
 
-<<signup.html>> David
-
+alle David
 
 ---------------------------------------------
 Weiteres
