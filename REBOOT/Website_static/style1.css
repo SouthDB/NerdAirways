@@ -76,9 +76,7 @@ h5 {
 }
 
 
-.rightinput {
-    width: 200px;
-}
+
 
 .rightbar {
     float: right;
@@ -120,6 +118,10 @@ input[type=submit]:hover {
     background-color: rgb(70, 70, 255);
 }
 
+.rightinput {
+    width: 200px;
+    margin-right: 25px 
+}
 .creds {
     border-radius: 5px;
     background-color: #f2f2f2;
