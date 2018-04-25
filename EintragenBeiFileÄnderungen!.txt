@@ -10,6 +10,7 @@ Beispiel: <<style3.css>> Daniel
 
 <<style3.css>> Daniel
 <<style1.css>> Daniel
+<<style2.css>> Daniel
 
 ---------------------------------------------
 CSS FILES Default
@@ -25,7 +26,7 @@ CSS FILES Default
 HTML FILES
 ---------------------------------------------
 Beispiel: <<home.html>> Daniel
-<<alle>> Daniel
+<<signup>> Daniel
 
 
 ---------------------------------------------
