@@ -73,3 +73,15 @@ footer {
 	padding: 3% 15%;
 	margin: 0 10%
 }
+
+
+
+/* signup */
+.row {
+	width: 70%;
+	padding: 5% 15%;
+}
+
+.row input {
+	width: 500px;
+}

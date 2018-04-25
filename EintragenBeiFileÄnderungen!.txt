@@ -9,7 +9,6 @@ CSS FILES
 Beispiel: <<style3.css>> Daniel
 
 <<style3.css>> Daneil
-<<style2.css>> David
 
 ---------------------------------------------
 CSS FILES Default
@@ -25,8 +24,6 @@ CSS FILES Default
 HTML FILES
 ---------------------------------------------
 Beispiel: <<home.html>> Daniel
-
-<<signup.html>> David
 
 
 ---------------------------------------------
