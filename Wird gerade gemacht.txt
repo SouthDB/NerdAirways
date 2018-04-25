@@ -1,4 +1,4 @@
 David macht gerade:
-	die neue Navleiste bei home.html (mit style2.css)
+	die Registrierung signup.html laut Sammlung_Pflichtenheft.txt
 Manu macht gerade:
 	Pflichtenheft (LastenheftBeispiel)
