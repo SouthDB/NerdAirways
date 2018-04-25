@@ -77,15 +77,41 @@ footer {
 
 
 /* signup */
+/*old
 .row {
 	width: 70%;
 	padding: 5% 15%;
 }
-
-.row input {
-	width: 500px;
+*/
+.row {
+	width: 100%;
+	padding: 25px;
+ 	margin: 0;
 }
 
+.row h3{
+	text-align: center;
+	margin-bottom: 4%;
+}
+.row table{
+	margin-left: 20%;
+	margin-bottom: 4%;
+}
+
+.row input{
+	width: 500px;
+	margin: 2% 0 0 0;
+}
+
+.row select{
+	margin: 2% 0 0 0;
+}
+
+.row td{
+	padding: 0 25px 25px 25px;
+}
+
+/*fly note home.html*/
 .fly_notes {
 	background-color: rgb(208, 208, 255);
     padding: 25px;
