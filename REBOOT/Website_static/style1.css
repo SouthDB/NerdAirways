@@ -54,21 +54,27 @@ h5 {
     float: left;
 }
 
-.navlink a {
+.navlink2 {
+    float: right;
+}
+
+.navlink a, .navlink2 a{
     display: block;
     color: white;
+  
     text-align: center;
     padding: 20px 50px;
     text-decoration: none;
 }
 
-.navlink a:hover {
+.navlink a:hover , .navlink2 a:hover{
     background-color: rgb(70, 70, 255);
 }
 
-.navlink a.active {
+.navlink a.active , .navlink2 a:active{
     background-color: rgb(70, 70, 255);
 }
+
 
 .rightinput {
     width: 200px;
