@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style2.css">
     <link rel="stylesheet" type="text/css" href="style3.css">
     <link rel="stylesheet" type="text/css" href="style4.css">
+    <link rel="stylesheet" type="text/css" href="style5.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
 
 <body>
@@ -21,25 +22,15 @@
             <a href="flight.html">Flüge</a>
         </li>
         <li class="navlink">
-            <a href="checkin.html">Check-in</a>
-        </li>
-        <li class="navlink">
             <a class="active" href="review.html">Rezensionen</a>
         </li>
+        <li class="navlink2"><input class="rightinput inputs" type="password" id="passwd" name="passwort" placeholder="Passwort..."></li>
+        <li class="navlink2"><input class="rightinput inputs"type="text" id="user" name="benutzername" placeholder="Benutzername..."></li>
+        <li class="navlink2"><input type="submit" value="Login"></li>
+        <li class="navlink2"><a href="signup.html">Registrieren</a></li>
     </ul>
-    <div class="rightbar">
-        <div class="creds">
-            <form action="">
-                <label for="user">Benutzername</label>
-                <input class="inputs" type="text" id="user" name="benutzername" placeholder="Benutzername..."></br></br>
-                <label for="passwd">Passwort</label>
-                <input class="inputs" type="password" id="passwd" name="passwort" placeholder="Passwort..."></br></br>
-                <input class="inputs" type="submit" value="Login"></br></br>
-                <a class="button buttonwidth" href="signup.html">Registrieren</a>
-                <!-- glaube button ist besser -->
-            </form>
-        </div>
-    </div>
+
+    
     <div class="central">
 		<div class="notes">
 			<h2>Fügen Sie Ihre Bewertung ein</h2>
@@ -51,12 +42,15 @@
 			</form>
 		</div>
     </div>
+
+
     <footer>
 		<div>
 			<ul class="foot">
 			<li class="footli"><p class="lastline"><a class="lastline" href="https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_de.htm">Passagierrechte</a></p></li>
 			<li class="footli"><p class="lastline"><a class="lastline" href="impressum.html">Impressum</a></li>
-			</ul>
+                <li><a class="lastline" href="https://www.lufthansa.com/online/portal/lh/cmn/generalinfo?nodeid=1761532&l=de">AGB</a></li>
+            </ul>
 		</div>
 	</footer>
 </body>
