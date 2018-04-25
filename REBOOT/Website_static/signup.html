@@ -95,106 +95,49 @@
                 <input type="submit" value="Registrieren">
 -->
 
-	<div class="central row">
+	<div class="central">
 		
 		<h3>Daten</h3>
-		<table>
-		<tr>
-			<td>
-			<label for="user">Benutzername</label><br>
-        	<input type="text" class="inputs suinput" id="user" name="benutzername" placeholder="Benutzername">
-				
-			</td>
-			<td>
-			<label for="passwd">Passwort</label><br>
-			<input type="password" class="inputs suinput" id="passwd" name="passwort" placeholder="Passwort">
-			</td>
-		</tr>
+		<label for="salutation">Anrede</label>
+		<select class="inputs suinput" name="salutation"><option value="herr">Herr</option><option name="frau">Frau</option></select>
+		<label for="firstname">Vorname</label>
+		<input type="text" class="inputs suinput" name="forname" placeholder="Vorname">
+		<label for="lastname">Nachname</label>
+		<input type="text" class="inputs suinput" name="lastname" placeholder="Nachname">
+		<label for="address">Adresse</label>
+		<input type="text" class="inputs suinput" name="address" placeholder="Adresse">
+		<label for="country">Land</label>
+		<input type="text" class="inputs suinput" name="country" placeholder="Land">
+		<label for="pc">Postleitzahl</label>
+		<input type="number" class="inputs suinput" name="postalcode" placeholder="Postleitzahl">
+		<label for="city">Stadt</label>
+		<input type="text" class="inputs suinput" name="city" placeholder="Stadt">
+		<label for="birthdate">Geburtsdatum</label>
+		<input type="date" class="inputs suinput" name="birthdate" placeholder="Geburtsdatum">
+		<label for="email">E-Mail-Adresse</label>
+		<input type="email" class="inputs suinput" name="e-mail" placeholder="E-Mail-Adresse">
 
-		<tr>
-			<td>
-				<label for="salutation">Anrede</label><br>
-				<select class="inputs suinput" name="salutation"><option value="herr">Herr</option><option name="frau">Frau</option></select>
-			</td>
-			<td></td>
-		</tr>
-
-		<tr>
-			<td>
-				<label for="firstname">Vorname</label><br>
-				<input type="text" class="inputs suinput" name="forname" placeholder="Vorname">
-			</td>
-			<td>
-				<label for="lastname">Nachname</label><br>
-				<input type="text" class="inputs suinput" name="lastname" placeholder="Nachname">
-			</td>
-		</tr>
-
-		<tr>
-			<td>
-					<label for="address">Adresse</label><br>
-					<input type="text" class="inputs suinput" name="address" placeholder="Adresse">
-			</td>
-			<td>
-					<label for="pc">Postleitzahl</label><br>
-					<input type="number" class="inputs suinput" name="postalcode" placeholder="Postleitzahl">
-			</td>
-		</tr>
-
-		<tr>
-			<td>
-					<label for="city">Stadt</label><br>
-					<input type="text" class="inputs suinput" name="city" placeholder="Stadt">
-			</td>	
-			<td>
-					<label for="country">Land</label><br>
-					<input type="text" class="inputs suinput" name="country" placeholder="Land">
-			</td>		
-		</tr>
-
-		<tr>
-			<td>
-					<label for="birthdate">Geburtsdatum</label><br>
-					<input type="date" class="inputs suinput" name="birthdate" placeholder="Geburtsdatum">
-
-			</td>
-			<td>
-					<label for="email">E-Mail-Adresse</label><br>
-					<input type="email" class="inputs suinput" name="e-mail" placeholder="E-Mail-Adresse">
-			</td>	
-		</tr>
-	</table>
-	<br>
+		<label for="user">Benutzername</label>
+        <input type="text" class="inputs suinput" id="user" name="benutzername" placeholder="Benutzername">
+		<label for="passwd">Passwort</label>
+		<input type="password" class="inputs suinput" id="passwd" name="passwort" placeholder="Passwort">
 
 		<h3>Zahlungsinformationen</h3>
-		<table>
-			<tr>
-			<td>
-		<label>Karteninhaber</label><br>
-		<input type="text" class="inputs suinput" id="cname" name="cardname" placeholder="Karteninhaber">
-			</td>
-			<td>
-		<label>Kreditkartennummer</label><br>
+		<label>Karteninhaber</label>
+		<input type="text" class="inputs suinput" id="cname" name="cardname" value="Karteninhaber">
+		<label>Kreditkartennummer</label>
 		<input type="number" class="inputs suinput" name="cardnum" minlength="12" maxlength="16" placeholder="Kreditkartennummer">
-			</td>
-		</tr>
-			<td>
-			<label>Gültig bis</label><br>
-			<input type="month" class="inputs suinput" name="expdate" placeholder="April 2018">
-			</td>
-			<td>
-				<label>Ich habe die <a class="lastline" href="https://www.lufthansa.com/online/portal/lh/cmn/generalinfo?nodeid=1761532&l=de">AGB</a> gelesen.</label><input type="checkbox" name="agb" value="AGB">
-			</td>
-		<tr>
-			<td>
-				<input class="inputs suinput" type="submit" value="Registrieren">
-			</td>
-		</tr>
-		</table>
+		
 
+		<label>Gültig bis</label>
+		<input type="month" class="inputs suinput" name="month" placeholder="April 2018">
 
-	<!--<label>CVC/CVV-Code</label>
-		<input type="number" class="inputs suinput" name="cvccvv" minlength="3" maxlength="3" placeholder="CVC/CVV-Code">-->
+		<label>CVC/CVV-Code</label>
+		<input type="number" class="inputs suinput" name="cvccvv" minlength="3" maxlength="3" placeholder="CVC/CVV-Code">
+
+		<label>Ich habe die <a class="lastline" href="https://www.lufthansa.com/online/portal/lh/cmn/generalinfo?nodeid=1761532&l=de">AGB</a> gelesen.</label><input type="checkbox" name="agb" value="AGB">
+
+		<input class="inputs suinput" type="submit" value="Registrieren">
 
 	</div>
 	
