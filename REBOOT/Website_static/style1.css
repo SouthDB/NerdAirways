@@ -70,6 +70,10 @@ h5 {
     background-color: rgb(70, 70, 255);
 }
 
+.rightinput {
+    width: 200px;
+}
+
 .rightbar {
     float: right;
     padding: 0;
@@ -90,15 +94,24 @@ h5 {
     box-sizing: border-box;
 }
 
+
 input[type=submit] {
+/* erstmal noch stehen lassen
     background-color: #5F5FF5;
     color: white;
     padding: 14px 20px;
     border: none;
+*/
+    background-color: rgb(95, 95, 245);
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    cursor: pointer;
 }
 
+
 input[type=submit]:hover {
-    background-color: #4646F5;
+    background-color: rgb(70, 70, 255);
 }
 
 .creds {
