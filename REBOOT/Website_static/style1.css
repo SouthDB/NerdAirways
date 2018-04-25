@@ -71,7 +71,7 @@ h5 {
     background-color: rgb(70, 70, 255);
 }
 
-.navlink a.active , .navlink2 a:active{
+.navlink a.active , .navlink2 a.active{
     background-color: rgb(70, 70, 255);
 }
 
