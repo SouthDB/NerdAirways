@@ -122,7 +122,7 @@ input[type=submit]:hover {
 
 .central {
     margin: 0;
-    width: 75%;
+    width: 100%;
     border-right-style: solid;
     border-color: gray;
     border-width: 3px;
