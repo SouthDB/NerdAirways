@@ -1,2 +1,4 @@
 David macht gerade:
 	die neue Navleiste bei home.html (mit style2.css)
+Manu macht gerade:
+	Pflichtenheft (LastenheftBeispiel)
