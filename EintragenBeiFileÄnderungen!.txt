@@ -8,6 +8,8 @@ CSS FILES
 ---------------------------------------------
 Beispiel: <<style3.css>> Daniel
 
+<<style2.css>> Daniel
+
 
 ---------------------------------------------
 CSS FILES Default
@@ -23,6 +25,8 @@ CSS FILES Default
 HTML FILES
 ---------------------------------------------
 Beispiel: <<home.html>> Daniel
+
+<<signup.html>> Daniel
 
 
 ---------------------------------------------
