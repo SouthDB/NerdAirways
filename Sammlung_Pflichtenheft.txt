@@ -48,6 +48,7 @@ Rezensionen
     Bereich -> Auflistung der Kommentare + Berwertung + Zeit (Datum) und Uhrzeit
     Bereich -> User Interaktion
         Überschirft -> Bewerten die Ihren Flug
+        Eingabefeld (Buchungsnummer)
         Eingabefeld (Kommentar)
         Eingabefeld (Zahl) 1-5 
         Buton Kommentarfeld löschen
