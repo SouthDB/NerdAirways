@@ -24,7 +24,7 @@ HTML FILES
 ---------------------------------------------
 Beispiel: <<home.html>> Daniel
 
-<<review.html>> Daniel
+<<home.html>> Daniel
 
 
 ---------------------------------------------
