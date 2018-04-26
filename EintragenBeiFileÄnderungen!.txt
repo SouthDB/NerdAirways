@@ -24,12 +24,11 @@ HTML FILES
 ---------------------------------------------
 Beispiel: <<home.html>> Daniel
 
-<<account.html>> Daniel
+<<aignup.html>> Daniel
+<<flight.html>> Daniel
 
 
 ---------------------------------------------
 Weiteres
 ---------------------------------------------
 Beispiel: <<Pflichtenheft.docx>> Daniel
-
-<<Pflichtenheft.docx>> Daniel
