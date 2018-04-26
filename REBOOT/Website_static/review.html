@@ -10,6 +10,9 @@
     <link rel="stylesheet" type="text/css" href="style5.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
 
+    <!-- Für die Sterne bei Bewertung -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <body>
     <header>
         <h1 id="headline">NerdAirways</h1>
@@ -32,6 +35,43 @@
 
     
     <div class="central">
+       
+        <div class="row myreview">
+        <h2>Bewerten sie ihren Flug</h2>
+           <table>
+                <tr>
+                    <td>
+                        <label for="flightnum">Flugnummer</label><br>
+                        <input type="number" class="inputs suinput" name="flightnum" placeholder="Flugnummer" min="1000" max="9999" minlength="4" maxlength="4"><br><br>
+                        <label for="rating">Bewertung</label><br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>   
+                    </td>
+                    <td>
+                        <label for="comment">Kommentar</label><br>
+                        <textarea cols="60" rows="5" name="Kommentar" id="Kommentar" accesskey="k"></textarea>               
+                    </td>
+                    <td>
+                        <input type="reset" value="Inhalt öschen" class="inputs suinput"><br>
+                        <input type="submit" value="Jetzt senden!" class="inputs suinput" title="Abschicken">                        
+                    </td>
+                </tr>
+            </table>
+            
+
+
+
+        </div>
+
+
+
+    </div>    
+
+
+    <!--
 		<div class="notes">
 			<h2>Fügen Sie Ihre Bewertung ein</h2>
 			<form action="" method="post">
@@ -41,7 +81,7 @@
 				<input type="submit" value="Jetzt senden!" class="Knopf" title="Jetzt senden!"></p>
 			</form>
 		</div>
-    </div>
+    -->
 
 
     <footer>

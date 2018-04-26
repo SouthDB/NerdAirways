@@ -189,3 +189,26 @@ footer {
 .fly_notes tr:nth-child(even) {
 	background-color: #ff8c8c;
 }
+
+/* review */
+.myreview {
+	border: 1px solid grey;
+	margin: 0 10%;
+	width: 80%;
+	
+}
+.myreview input[type=number], 
+.myreview input[type=reset],
+.myreview input[type=submit] {
+	width: 200px;
+}
+
+.myreview textarea {
+	height: 100px;
+	width: 400px;
+	resize: none;
+}
+
+.checked {
+	color: orange;
+}
