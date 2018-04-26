@@ -100,8 +100,9 @@ footer {
 }
 
 .row table {
-	padding-left: 20%;
-	padding-bottom: 4%
+	padding-bottom: 4%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .row input {
@@ -115,6 +116,11 @@ footer {
 
 .row td {
 	padding: 0 25px 25px 25px;
+}
+
+.row input[type=checkbox] {
+	width: auto;
+	margin: 0 0 0 2%;
 }
 
 /*account*/
