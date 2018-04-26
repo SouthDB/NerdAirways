@@ -1,4 +1,6 @@
 
+/*  Sterne für Bewertung  */
+
 div.stars {
     width: 280px;
     display: inline-block;
@@ -23,6 +25,8 @@ div.stars {
     content: '\f006';
     font-family: FontAwesome;
   }
+
+/*  Keine Pfeile in den Eingabefeldern  */
 
   input[type=number]::-webkit-inner-spin-button, 
   input[type=number]::-webkit-outer-spin-button { 
