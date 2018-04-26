@@ -44,11 +44,20 @@
                         <label for="flightnum">Flugnummer</label><br>
                         <input type="number" class="inputs suinput" name="flightnum" placeholder="Flugnummer" min="1000" max="9999" minlength="4" maxlength="4"><br><br>
                         <label for="rating">Bewertung</label><br>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>   
+                        <div class="stars">
+                                <form action="">
+                                  <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                  <label class="star star-5" for="star-5"></label>
+                                  <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                  <label class="star star-4" for="star-4"></label>
+                                  <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                  <label class="star star-3" for="star-3"></label>
+                                  <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                  <label class="star star-2" for="star-2"></label>
+                                  <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                  <label class="star star-1" for="star-1"></label>
+                                </form>
+                              </div>  
                     </td>
                     <td>
                         <label for="comment">Kommentar</label><br>
