@@ -195,8 +195,9 @@ footer {
 	border: 1px solid grey;
 	margin: 0 10%;
 	width: 80%;
-	
+	text-align: center;
 }
+
 .myreview input[type=number], 
 .myreview input[type=reset],
 .myreview input[type=submit] {
@@ -212,3 +213,29 @@ footer {
 .checked {
 	color: orange;
 }
+
+.otherreviews table {
+	border: 1px solid rgb(0, 0, 0);
+	border-collapse: collapse;
+	width: 80%;
+	padding: 25px;
+	margin: 5% 10%;
+	background-color: rgb(194, 194, 255);
+	text-align: left;
+}
+
+.otherreviews th {
+	background-color: rgb(95, 95, 245);
+	color: white;
+}
+
+.otherreviews tr,
+.otherreviews th,
+.otherreviews td {
+	padding: 25px;
+}
+
+.otherreviews tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
