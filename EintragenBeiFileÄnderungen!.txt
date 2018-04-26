@@ -24,8 +24,7 @@ HTML FILES
 ---------------------------------------------
 Beispiel: <<home.html>> Daniel
 
-<<aignup.html>> Daniel
-<<flight.html>> Daniel
+<<review.html>> Daniel
 
 
 ---------------------------------------------
