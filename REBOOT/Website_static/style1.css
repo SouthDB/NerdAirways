@@ -136,8 +136,10 @@ input[type=submit]:hover {
 
 .notes {
     background-color: rgb(208, 208, 255);
-    padding: 25px;
     margin: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 2%;
 }
 
 .notes img {
@@ -146,11 +148,10 @@ input[type=submit]:hover {
 }
 
 .specificnote {
-    width: 96%;
     border: 1px dashed grey;
     overflow: hidden;
-    padding: 20px;
-    margin-top: 10px;
+    padding: 1%;
+    margin-top: 1%;
     background-color: rgb(238, 238, 255);
 }
 
