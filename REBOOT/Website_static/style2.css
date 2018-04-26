@@ -153,7 +153,7 @@ footer {
 	padding: 0 25px 25px 25px;
 }
 
-.row input [type=checkbox] {
+.row input[type=checkbox] {
 	width: auto;
 	margin: 0 0 0 2%;
 }
