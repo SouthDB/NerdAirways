@@ -33,6 +33,7 @@ Seiten Anpassungen:
         Kreditkartenart DropDown
         gültig bis (Monat) DropDown
         gültig bis (Jahr) DropDown
+	agb bei ändern weg 
     - account
         Tabelle -> Klasse Gepäck als Spalte 
 
