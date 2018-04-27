@@ -1,4 +1,4 @@
-------------------------------------------------------------------------------------------------------------------------------------------
+﻿------------------------------------------------------------------------------------------------------------------------------------------
 Aufgaben und Verbesserungen
 ------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -19,8 +19,8 @@ Seiten Anpassungen:
     - Alle
         utf8 codierung angeben
     - booking.html
-        - Preis kein Feld sondern nur die Zahl!
-        - € bei Klasse
+        - Preis kein Feld sondern nur die Zahl! (David)
+        - € bei Klasse (David)
     - Alle Bestätigungen
         - Anzeigen einer Zusammenfassung der vorigen Daten
         - Hinweise -bei check-in 2 Studenen vorher beim Terminal zu sein
