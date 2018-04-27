@@ -51,24 +51,20 @@
 			<tr>
 			<td>
 				<label>Klasse</label><br>
-				<select class="inputs suinput" name="class"><option value="econ">Economy</option><option name="busi">Business +110</option><option name="first">First Class +770</option></select></td>
+				<select class="inputs suinput" name="class"><option value="econ">Economy</option><option name="busi">Business +110€</option><option name="first">First Class +770€</option></select></td>
 			<td>
 				<label>Zusatzgepäck</label><br>
 				<select class="inputs suinput" name="lugg"><option value="no">-----</opton><option value="15kg">15kg +30€</option><option name="30kg">30kg +60€</option></select></td>
 			</tr>
 			<tr>
 				<td>
-					<label>Preis (inkl. MwSt)</label><br>
-					<input type="text" value="110€" placeholder="110€" readonly>
+					<!--<label>Preis (inkl. MwSt)</label><br>-->
+					<label id="priceframe">Gesamtpreis (inkl. MwSt): <label id="price">110€</label></label>
 				</td>		
 				<td>
-				<label>Ich habe die <a class="lastline" href="agb.html" target="_blank">AGB</a> gelesen.</label>
-				<input type="checkbox" name="agb" value="AGB">
-				 </td>
-			</tr>
-			<tr>
-				 <td></td>
-				 <td><a class="button" id="kackbutton" href="booking_confirm.1.html">Buchen</a></td>	
+				<label>Ich habe die <a class="lastline" href="agb.html" target="_blank">AGB</a> gelesen.</label><input type="checkbox" name="agb" value="AGB">
+				 <a id="kackbutton" href="booking_confirm.1.html">Buchen</a>
+				</td>
 			</tr>	
 			</table>
 

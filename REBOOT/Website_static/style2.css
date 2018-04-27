@@ -87,10 +87,34 @@ footer {
 	margin: 0 0 0 2%;
 }
 
-#kackbutton {
-	float: right;
-	width: 300px;
+#kackbutton {	
+	width: 100%;
+	background-color: rgb(95, 95, 245);
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 20px 50px;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 12px 0;
+	margin: 8px 0;	
 } 
+
+#priceframe {
+		background-color: rgb(95, 95, 245);
+		display: inline-block;
+		text-align: center;
+		color: white;
+		padding: 20px 0;
+		border-radius: 5px;
+		font-size: 16px;
+		width: 300px;
+}
+
+#price {
+	font-weight: bold;
+	font-size: 1.3em;
+}
 
 /* Impressum */
 
