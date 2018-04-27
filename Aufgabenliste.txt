@@ -16,8 +16,6 @@ Pflichtengeft:
 Deantenbanekenmodellierung:
 
 Seiten Anpassungen:
-    - Alle
-        utf8 codierung angeben
     - booking.html
         - Preis kein Feld sondern nur die Zahl! 	so ok???
     - Alle Bestätigungen
