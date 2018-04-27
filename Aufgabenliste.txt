@@ -16,7 +16,26 @@ Pflichtengeft:
 Deantenbanekenmodellierung:
 
 Seiten Anpassungen:
-    - Siehe Sammlung_Pflichtenheft (Alles was fehlt muss noch inplementiert werden)
+    - Alle
+        utf8 codierung angeben
+    - booking.html
+        - Preis kein Feld sondern nur die Zahl!
+        - € bei Klasse
+    - Alle Bestätigungen
+        - Anzeigen einer Zusammenfassung der vorigen Daten
+        - Hinweise -bei check-in 2 Studenen vorher beim Terminal zu sein
+    - signup.html
+        Kreditkarteninhaber
+        Kreditkartenart DropDown
+        gültig bis (Monat) DropDown
+        gültig bis (Jahr) DropDown
+    - accoutn.html
+        Kreditkarteninhaber
+        Kreditkartenart DropDown
+        gültig bis (Monat) DropDown
+        gültig bis (Jahr) DropDown
+    - account
+        Tabelle -> Klasse Gepäck als Spalte 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 Allgemein - Wiederholend
