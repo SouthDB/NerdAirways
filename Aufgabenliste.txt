@@ -23,17 +23,12 @@ Seiten Anpassungen:
     - Alle Bestätigungen
         - Anzeigen einer Zusammenfassung der vorigen Daten
         - Hinweise -bei check-in 2 Studenen vorher beim Terminal zu sein
-    - signup.html
+    - account.html
         Kreditkarteninhaber		(David)
         Kreditkartenart DropDown	(David)
         gültig bis (Monat) DropDown	(David)
         gültig bis (Jahr) DropDown	(David)
-    - accoutn.html
-        Kreditkarteninhaber
-        Kreditkartenart DropDown
-        gültig bis (Monat) DropDown
-        gültig bis (Jahr) DropDown
-	agb bei ändern weg 
+	agb bei ändern weg 		(David)
     - account
         Tabelle -> Klasse Gepäck als Spalte 
 
