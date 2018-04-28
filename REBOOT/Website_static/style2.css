@@ -121,7 +121,6 @@ footer {
 }
 
 /* Impressum */
-
 .imp {
 	background-color: rgb(208, 208, 255);
 	padding-top: 3%;
@@ -258,22 +257,35 @@ footer {
 }
 
 /* review */
-.myreview {
+.reviews {
 	border: 1px solid grey;
 	margin: 0 10%;
 	width: 80%;
 	text-align: center;
 }
 
-.myreview input[type=number], 
-.myreview input[type=reset],
-.myreview input[type=submit] {
-	width: 200px;
+.myrevtable {
+	border: 1px solid rgb(0, 0, 0);
+	border-collapse: collapse;
+	width: 80%;
+	margin: 5% 10%;
+	background-color: *rgb(194, 194, 255);
+	text-align: center;
 }
 
-.myreview textarea {
+.myrevtable td {
+	padding: 20px;
+}
+
+.reviews input[type=number], 
+.reviews input[type=reset],
+.reviews input[type=submit] {
+	width: 90%;
+}
+
+.reviews textarea {
 	height: 100px;
-	width: 400px;
+	width: 90%;
 	resize: none;
 }
 
@@ -281,7 +293,7 @@ footer {
 	color: orange;
 }
 
-.otherreviews table {
+.otherrevtable {
 	border: 1px solid rgb(0, 0, 0);
 	border-collapse: collapse;
 	width: 80%;
@@ -291,18 +303,18 @@ footer {
 	text-align: left;
 }
 
-.otherreviews th {
+.otherrevtable th {
 	background-color: rgb(95, 95, 245);
 	color: white;
 }
 
-.otherreviews tr,
-.otherreviews th,
-.otherreviews td {
+.otherrevtable tr,
+.otherrevtable th,
+.otherrevtable td {
 	padding: 25px;
 }
 
-.otherreviews tr:nth-child(even) {
+.otherrevtable tr:nth-child(even) {
 	background-color: #ffffff;
 }
 

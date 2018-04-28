@@ -42,10 +42,30 @@ input[type=submit] {
 }*/
 
 
-.confirm p{
+/* für alle confirms */
+/*
+.confirm{
     text-align: center;
     width: 100%;
-    padding: 50px;
-    margin: 0;
-    font-size: 25px;
+    padding: 5% 0;
+}
+*/
+
+.confirm {
+	text-align: center;
+	width: 60%;
+    padding: 3% 20%;
+}
+
+.confirm h2 {
+    padding-bottom: 3%;
+}
+
+.confirm table {
+    padding: 0 40%;
+    text-align: left;
+}
+
+.confirm td {
+    padding: 10px 10px;
 }

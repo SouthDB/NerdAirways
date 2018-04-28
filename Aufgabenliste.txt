@@ -18,12 +18,8 @@ Deantenbanekenmodellierung:
 Seiten Anpassungen:
     - booking.html
         - Preis kein Feld sondern nur die Zahl! 	so ok???
-    - Alle Bestätigungen
-        - Anzeigen einer Zusammenfassung der vorigen Daten
-        - Hinweise -bei check-in 2 Studenen vorher beim Terminal zu sein
     - account.html
         - Registrierenbutton Position ok ???
-        -Tabelle -> Klasse Gepäck als Spalte 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 Allgemein - Wiederholend
