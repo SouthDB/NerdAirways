@@ -20,6 +20,7 @@ Seiten Anpassungen:
         - Preis kein Feld sondern nur die Zahl! 	so ok???
     - account.html
         - Registrierenbutton Position ok ???
+    - signup.html Länderwahl als Drop Down Menu?
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 Allgemein - Wiederholend
