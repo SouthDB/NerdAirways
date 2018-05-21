@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="xDynamicSite" transaction-type="RESOURCE_LOCAL">
+		<class>model.XTable1</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@orahost:1521:infdb"/>
+			<property name="javax.persistence.jdbc.user" value="backesda"/>
+			<property name="javax.persistence.jdbc.password" value="Daniel24"/>
+			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+		</properties>
+	</persistence-unit>
+</persistence>

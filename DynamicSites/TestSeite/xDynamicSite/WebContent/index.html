@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>title</title>
+<meta charset="UTF-8">
+</head>
+
+<body>
+<h1>Das ist eine dynamische Testseite!</h1>
+<p id="a1">Daten aus der Datenbank</p>
+<table id=table1>
+	<tr>
+		<td>
+			<b>ID</b>
+		</td>
+		<td>
+			<b>Atribut1</b>
+		</td>
+	</tr>
+</table>
+<table id=content>
+</table>
+<button onclick = "x1function()">Jetzt Laden</button>
+</body>
+
+<script type="text/javascript">
+	function x1function(){
+		var xhttp = new XMLHttpRequest();
+		  xhttp.onreadystatechange = function() {
+		    if (this.readyState == 4 && this.status == 200) {
+		    	var jn = JSON.parse(this.responseText);
+		        document.getElementById("content").innerHTML = "<tr><td>" + jn.table1[0].id + "</td><td>" + jn.table1[0].atri1 + "</td></tr> <tr><td>" + jn.table1[1].id + "</td><td>" + jn.table1[1].atri1 + "</td></tr> <tr><td>" + jn.table1[2].id + "</b></td><td>" + jn.table1[2].atri1 + "</td></tr>";
+		    }
+		  };
+		  xhttp.open("GET", "http://localhost:8080/xDynamicSite/XTable1Servlet", true);
+		  xhttp.send();
+		}
+</script>
