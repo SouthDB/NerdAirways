@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de-de">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/icon/favicon.ico" />
+    <title>NerdAirways</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/style1.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style2.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style3.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style4.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style5.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8"> </head>
+
+<body>
+    <header>
+        <h1 id="headline">NerdAirways</h1>
+	</header>
+	
+
+    <ul class="navbar">
+        <li class="navlink">
+            <a href="home.html">Home</a>
+        </li>
+        <li class="navlink">
+            <a href="flight.html">Flüge</a>
+        </li>
+        <li class="navlink">
+            <a href="review.html">Rezensionen</a>
+		</li>
+		<li class="navlink2"><input class="rightinput inputs" type="password" id="passwd" name="passwort" placeholder="Passwort..."></li>
+        <li class="navlink2"><input class="rightinput inputs"type="text" id="user" name="benutzername" placeholder="Benutzername..."></li>
+        <li class="navlink2"><input type="submit" value="Login"></li>
+        <li class="navlink2"><a href="signup.html">Registrieren</a></li>
+    </ul>
+ 
+    
+	<div class="central">
+	<div class="flightinfo">	
+		<h2>Fluginformationen</h2>
+		<table>
+			<tr><td>Flugnummer:</td><td>315125125</td></tr>
+			<tr><td>Von:</td><td>Brüssel</td></tr>
+			<tr><td>Nach:</td><td>London</td></tr>
+			<tr><td>Datum:</td><td>08.05.2018</td></tr>
+			<tr><td>Abflug:</td><td>08:00</td></tr>
+			<tr><td>Ankunft:</td><td>10:00</td></tr>
+		</table>
+		<hr>
+	</div>
+
+		<div class="bookingbottom">
+			<h2>Leistungen</h2>
+			<table>
+			<tr>
+			<td>
+				<label>Klasse</label><br>
+				<select class="inputs suinput" name="class"><option value="econ">Economy</option><option name="busi">Business +110€</option><option name="first">First Class +770€</option></select></td>
+			<td>
+				<label>Zusatzgepäck</label><br>
+				<select class="inputs suinput" name="lugg"><option value="no">-----</opton><option value="15kg">15kg +30€</option><option name="30kg">30kg +60€</option></select></td>
+			</tr>
+			<tr>
+				<td>
+					<!--<label>Preis (inkl. MwSt)</label><br>-->
+					<label id="priceframe">Gesamtpreis (inkl. MwSt): <label id="price">110€</label></label>
+				</td>		
+				<td>
+				<label>Ich habe die <a class="lastline" href="agb.html" target="_blank">AGB</a> gelesen.</label><input type="checkbox" name="agb" value="AGB">
+				 <a id="kackbutton" href="booking_confirm.1.html">Buchen</a>
+				</td>
+			</tr>	
+			</table>
+
+	</div>
+
+	
+    <footer>
+		<div>
+			<ul class="foot">
+				<li class="footli"><p class="lastline"><a class="lastline" href="https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_de.htm">Passagierrechte</a></p></li>
+				<li class="footli"><p class="lastline"><a class="lastline" href="impressum.html">Impressum</a></li>
+				<li><a class="lastline" href="agb.html">AGB</a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+
+</html>
