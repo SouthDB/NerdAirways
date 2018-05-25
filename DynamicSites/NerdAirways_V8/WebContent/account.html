@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="de-de">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/icon/favicon.ico" />
+    <title>NerdAirways</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/style1.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style2.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style3.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style4.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style5.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> </head>
+
+<body>
+    <header>
+        <h1 id="headline">NerdAirways</h1>
+    </header>
+
+
+    <ul class="navbar">
+        <li class="navlink">
+            <a href="home.html">Home</a>
+        </li>
+        <li class="navlink">
+            <a href="flight.html">Flüge</a>
+        </li>
+        <li class="navlink">
+            <a href="review.html">Rezensionen</a>
+        </li>
+        <li class="navlink2">
+            <input class="rightinput inputs" type="password" id="passwd" name="passwort" placeholder="Passwort..."> </li>
+        <li class="navlink2">
+            <input class="rightinput inputs" type="text" id="user" name="benutzername" placeholder="Benutzername..."> </li>
+        <li class="navlink2">
+            <input type="submit" value="Login"> </li>
+        <li class="navlink2">
+            <a href="signup.html">Registrieren</a>
+        </li>
+        <li class="navlink2 navlink">
+            <a class="active" href="account.html">Mein Konto</a>
+        </li>
+    </ul>
+
+
+    <div class="central">
+        <div class="row">
+            <div class="user_data">
+                <h2>Kundenkonto</h2>
+                <table id="acctable">
+                    <!--
+                    <tr>
+                        <td>
+                            <label for="user">Benutzername</label>
+                            <br>
+                            <label for="user">Max32</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="salutation">Anrede</label>
+                            <br>
+                            <label for="salutation">Herr</label>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="firstname">Vorname</label>
+                            <br>
+                            <label for="firstname">Max</label>
+                        </td>
+                        <td>
+                            <label for="lastname">Nachname</label>
+                            <br>
+                            <label for="firstname">Mustermann</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="address">Adresse</label>
+                            <br>
+                            <label for="address">Poststr. 66</label>
+                        </td>
+                        <td>
+                            <label for="pc">Postleitzahl</label>
+                            <br>
+                            <label for="address">62341</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="city">Stadt</label>
+                            <br>
+                            <label for="address">Berlin</label>
+                        </td>
+                        <td>
+                            <label for="country">Land</label>
+                            <br>
+                            <label for="address">Germany</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="birthdate">Geburtsdatum</label>
+                            <br>
+                            <label for="address">16.3.1994</label>
+                        </td>
+                        <td>
+                            <label for="email">E-Mail-Adresse</label>
+                            <br>
+                            <label for="address">Max@gmail.com</label>
+                        </td>
+                    </tr>-->
+                </table>
+                <br>
+
+                <h3>Zahlungsinformationen</h3>
+                <table id="credtable">
+                    <!--
+                        <tr>
+                            <td>
+                                <label>Kartentyp</label>
+                                <br>
+                                <label>American Express</label> </td>
+                            <td></td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <label>Karteninhaber</label>
+                                <br>
+                                <label>Max Mustermann</label> </td>
+                            <td>
+                                <label>Kreditkartennummer</label>
+                                <br>
+                                <label>3791392613794589</label> </td>					 
+                        </tr>
+     
+                        <tr>
+                            <td>
+                                <label>Gültig bis</label>
+                                <br>
+                                <label>September 2020</label> </td>
+                            <td></td>
+                        </tr>-->
+                </table>
+            </div>
+
+            <!---
+            <div class="change_data">
+                <h2>Benutzerdaten ändern</h2>
+                <form action="AccountData_confirm.html" method="get">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="user">Benutzername</label>
+                                <br>
+                                <input type="text" class="inputs suinput" name="benutzername" placeholder="Benutzername"> </td>
+                            <td>
+                                <label for="passwd">Passwort</label>
+                                <br>
+                                <input type="password" class="inputs suinput" name="passwort" placeholder="Passwort"> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="salutation">Anrede</label>
+                                <br>
+                                <select class="inputs suinput" name="salutation">
+                                    <option value="herr">Herr</option>
+                                    <option name="frau">Frau</option>
+                                </select>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="firstname">Vorname</label>
+                                <br>
+                                <input type="text" class="inputs suinput" name="forname" placeholder="Vorname"> </td>
+                            <td>
+                                <label for="lastname">Nachname</label>
+                                <br>
+                                <input type="text" class="inputs suinput" name="lastname" placeholder="Nachname"> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="address">Adresse</label>
+                                <br>
+                                <input type="text" class="inputs suinput" name="address" placeholder="Adresse"> </td>
+                            <td>
+                                <label for="pc">Postleitzahl</label>
+                                <br>
+                                <input type="number" class="inputs suinput" name="postalcode" placeholder="Postleitzahl"> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="city">Stadt</label>
+                                <br>
+                                <input type="text" class="inputs suinput" name="city" placeholder="Stadt"> </td>
+                            <td>
+                                <label for="country">Land</label>
+                                <br>
+                                <input type="text" class="inputs suinput" name="country" placeholder="Land"> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="birthdate">Geburtsdatum</label>
+                                <br>
+                                <input type="date" class="inputs suinput" name="birthdate" placeholder="Geburtsdatum"> </td>
+                            <td>
+                                <label for="email">E-Mail-Adresse</label>
+                                <br>
+                                <input type="email" class="inputs suinput" name="e-mail" placeholder="E-Mail-Adresse"> </td>
+                         </tr>
+                    </table>
+                    <br>
+
+                    <h3>Zahlungsinformationen</h3>
+                    <table>
+                        <tr>
+                            <td>
+                                <label>Kartentyp</label>
+                                <br>
+                                <select class="inputs suinput" name="cardtype">
+                                    <option value="1">Visa</option>
+                                    <option name="2">Mastercard</option>
+                                    <option name="3">American Express</option>
+                                </select> </td>
+                            <td></td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <label>Karteninhaber</label>
+                                <br>
+                                <input type="text" class="inputs suinput" id="cname" name="cardname" placeholder="Karteninhaber"> </td>
+                            <td>
+                                <label>Kreditkartennummer</label>
+                                <br>
+                                <input type="number" class="inputs suinput" name="cardnum" minlength="12" maxlength="16" placeholder="Kreditkartennummer"> </td>					 
+                        </tr>
+     
+                        <tr>
+                            <td>
+                                <label>Gültig bis</label>
+                                <br>
+                                <select class="inputs suinput " name="expmonth">
+                                    <option value="1">Januar</option>
+                                    <option value="2">Februar</option>
+                                    <option value="3">März</option>
+                                    <option value="4">April</option>
+                                    <option selected value="5">Mai</option>
+                                    <option value="6">Juni</option>
+                                    <option value="7">Juli</option>
+                                    <option value="8">August</option>
+                                    <option value="9">September</option>
+                                    <option value="10">Oktober</option>
+                                    <option value="11">November</option>
+                                    <option value="12">Dezember</option>
+                                </select>
+                                <select class="inputs suinput" name="expyear">
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                </select> </td>
+                            <td>
+                                <input class="inputs suinput" type="submit" value="Aktualisieren"> </td>
+                        </tr>
+                </table>
+                </form>
+            </div>
+        -->
+            <div class="user_booking">
+                <h2>Buchungen</h2>
+                <table class="table" id="booktable">
+                    <tr class="table_head">
+                        <th>Buchungsnummer</th>
+                        <th>Flugnummer</th>
+                        <th>Von</th>
+                        <th>Nach</th>
+                        <th>Abflug</th>
+                        <th>Ankunft</th>
+                        <th>Klasse</th>
+                        <th>Zusatzgepäck</th>
+                        <th>Preis</th>
+                        <th>Check-In</th>
+                    </tr>
+                    <!---
+                    <tr>
+                        <td>123456</td>
+                        <td>45121151</td>
+                        <td>Brüssel</td>
+                        <td>Berlin</td>
+                        <td>04.05.2018</td>
+                        <td>04:00</td>
+                        <td>06:00</td>
+                        <td>Business</td>
+                        <td>-----</td>
+                        <td>70€</td>
+                        <td>
+                            <a href="checkin_confirm.html">Check-In</a>
+                        </td>
+                    </tr>
+                    <tr>
+                            <td>126456</td>
+                        <td>12124512</td>
+                        <td>Brüssel</td>
+                        <td>Madrid</td>
+                        <td>01.05.2018</td>
+                        <td>06:00</td>
+                        <td>08:00</td>
+                        <td>Economy</td>
+                        <td>30kg</td>
+                        <td>50€</td>
+                        <td>
+                            <a href="checkin_confirm.html">Check-In</a>
+                        </td>
+                    </tr>
+                    <tr>
+                            <td>523456</td>
+                        <td>315125125</td>
+                        <td>Brüssel</td>
+                        <td>London</td>
+                        <td>25.04.2018</td>
+                        <td>08:00</td>
+                        <td>10:00</td>
+                        <td>Economy</td>
+                        <td>15kg</td>
+                        <td>50€</td>
+                        <td>
+                            <a href="checkin_confirm.html">Check-In</a>
+                        </td>
+                    </tr>-->
+                </table>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer>
+        <div>
+            <ul class="foot">
+                <li>
+                    <a class="lastline" href="https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_de.htm">Passagierrechte</a>
+                </li>
+                <li>
+                    <a class="lastline" href="impressum.html">Impressum</a>
+                </li>
+                <li>
+                    <a class="lastline" href="agb.html">AGB</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript">
+    window.onload = function loadContent() {
+        console.log('Dokument geladen');
+
+        loadAccount();
+        
+    }
+</script>
+
+<script type="text/javascript">
+
+    function loadAccount() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var jsn = JSON.parse(this.responseText);
+
+                    var Anrede = "w";
+                    
+                    if(jsn.account.gender == "w"){
+                        Anrede = "Frau";
+                    }
+                    else{Anrede = "Herr";}
+
+                    document.getElementById("acctable").innerHTML +=
+                    "<tr><td>Benutzername: " + "</td><td>" + jsn.account[0].username 	+ "</td></tr>" +
+                    "<tr><td>Anrede: " + "</td><td>" + Anrede 							+ "</td></tr>" +
+                    "<tr><td>Vorname: " + "</td><td>" + jsn.account[0].fname 			+ "</td></tr>" +
+                    "<tr><td>Nachname: " + "</td><td>" + jsn.account[0].sname 			+ "</td></tr>" +
+                    "<tr><td>Adresse: " + "</td><td>" + jsn.account[0].adress 			+ "</td></tr>" +
+                    "<tr><td>Postleitzahl: " + "</td><td>" + jsn.account[0].plz 		+ "</td></tr>" +
+                    "<tr><td>Ort: " + "</td><td>" + jsn.account[0].place 				+ "</td></tr>" +
+                    "<tr><td>Land: " + "</td><td>" + jsn.account[0].country 			+ "</td></tr>" +    
+                    "<tr><td>Geburtsdatum: " + "</td><td>" + jsn.account[0].birthdate	+ "</td></tr>" + 
+                    "<tr><td>e-mail: " + "</td><td>" + jsn.account[0].email 			+ "</td></tr>";         
+            
+                   loadBooked(); 
+            }
+        }
+        xhttp.open("GET", "http://localhost:8080/NerdAirways/account", true);
+        xhttp.send();
+        
+        
+    }
+
+    function loadBooked() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var jsn = JSON.parse(this.responseText);
+
+                for (var i = 0; i < jsn.booked.length; i++) {
+                    document.getElementById("booktable").innerHTML +=
+                        "<tr><td>"  + jsn.booked[i].bookingnr       + "</td>" +
+                        "<td>"      + jsn.booked[i].flightnr        + "</td>" +
+                        "<td>"      + jsn.booked[i].fromcountry     + "</td>" +
+                        "<td>"      + jsn.booked[i].tocountry       + "</td>" +
+                        "<td>"      + jsn.booked[i].takeoff         + "</td>" +
+                        "<td>"      + jsn.booked[i].arrival         + "</td>" +
+                        "<td>"      + jsn.booked[i].class           + "</td>" +
+                        "<td>"      + jsn.booked[i].mass            + "</td>" +
+                        "<td>"      + jsn.booked[i].price           + "</td>" +
+                        "<td><a href= \""      + jsn.booked[i].checkinlink     + "\">Check in</a></td></tr>";
+                }
+            }
+        }
+        xhttp.open("GET", "http://localhost:8080/NerdAirways/booked", true);
+        xhttp.send();
+    }
+
+</script>
+
+</html>
