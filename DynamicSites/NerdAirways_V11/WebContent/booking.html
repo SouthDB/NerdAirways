@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de-de">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/icon/favicon.ico" />
+    <title>NerdAirways</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/style1.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style2.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style3.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style4.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/style5.css">
+	<script src="resources/js/scrips.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8"> </head>
+
+<body>
+    <header>
+        <h1 id="headline">NerdAirways</h1>
+	</header>
+	
+    <ul class="navbar" id="navbar">
+        <li class="navlink"><a href="home.html">Home</a></li>
+        <li class="navlink"><a href="flight.html">Flüge</a></li>
+        <li class="navlink"><a href="review.html">Rezensionen</a></li>
+    <!--
+        <li class="navlink2"><input class="rightinput inputs" type="password" id="passwd" name="passwort" placeholder="Passwort..."> </li>
+        <li class="navlink2"><input class="rightinput inputs" type="text" id="user" name="benutzername" placeholder="Benutzername..."> </li>
+        <li class="navlink2"><input type="submit" name="Login"> </li>
+        <li class="navlink2"><a href="signup.html">Registrieren</a>
+        </li><li class="navlink2"><a href="account.html">Mein Konto</a></li>
+    -->
+    </ul>
+ 
+    
+	<div class="central">
+	<div class="flightinfo">	
+		<h2>Fluginformationen</h2>
+		<table id="selectedfligtable">
+			<!--
+			<tr><td>Flugnummer:</td><td>315125125</td></tr>
+			<tr><td>Von:</td><td>Brüssel</td></tr>
+			<tr><td>Nach:</td><td>London</td></tr>
+			<tr><td>Datum:</td><td>08.05.2018</td></tr>
+			<tr><td>Abflug:</td><td>08:00</td></tr>
+			<tr><td>Ankunft:</td><td>10:00</td></tr>-->
+		</table>
+		<hr>
+	</div>
+
+		<div class="bookingbottom">
+			<h2>Leistungen</h2>
+			<form action="http://localhost:8080/NerdAirways/booking" method="post">
+			<table>
+			<tr>
+				<td>
+					<label>Klasse</label><br>
+					<select onchange="genPrice()" class="inputs suinput" name="vclass" id="selfligclass"> 
+						<option name="econ" value={"id":1,"cprice":1}>Economy</option>
+						<option name="busi" value={"id":2,"cprice":3.10}>Business +110€</option>
+						<option name="first"value={"id":3,"cprice":4.15}>First Class +770€</option>
+					</select>
+				</td>
+				<td>
+					<label>Zusatzgepäck</label><br>
+					<select onchange="genPrice()" class="inputs suinput" name="vlugg" id="selluggage">
+					<option name="nothing" 	value={"id":1,"lprice":1}>-----</opton>
+					<option name="small" 	value={"id":2,"lprice":1.2}>+15 kg</opton>
+					<option name="middle" 	value={"id":3,"lprice":1.4}>+30 kg</opton>
+					<option name="large" 	value={"id":4,"lprice":1.6}>+45 kg</opton>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<label id="priceframe">Gesamtpreis (inkl. MwSt): <label id="pricetag"></label></label>
+					<input type="hidden" name="price" value="" id="postprice">
+					<input type="hidden" name="fligid" value="" id="postfligid">
+					<!--Button zum testen
+					<button type="button" onclick="genPrice()">Preis Berechnen</button>
+					-->
+				</td>		
+				<td>
+					<label>Ich habe die <a class="lastline" href="agb.html" target="_blank">AGB</a> gelesen.</label>
+					<input type="checkbox" name="agb" value="AGB" required>
+					<input class="inputs suinput" type="submit" value="Buchen">
+				</td>
+			</tr>	
+			</table>
+			</form>
+
+	</div>
+
+	
+    <footer>
+		<div>
+			<ul class="foot">
+				<li class="footli"><p class="lastline"><a class="lastline" href="https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_de.htm">Passagierrechte</a></p></li>
+				<li class="footli"><p class="lastline"><a class="lastline" href="impressum.html">Impressum</a></li>
+				<li><a class="lastline" href="agb.html">AGB</a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript">
+
+    window.onload = function loadContent() {
+       console.log('Dokument geladen');
+
+	   loadSelectedFlight(); 
+	   loginlogout();                      
+   }
+</script>
+
+<script>
+	var price = 0;
+
+	function loadSelectedFlight() {
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function () {
+			if (this.readyState == 4 && this.status == 200) {
+				var jsn = JSON.parse(this.responseText);
+
+				   document.getElementById("selectedfligtable").innerHTML += 
+					   	"<tr><td>Flugnummer:</td><td>" 	+ jsn.sflight[0].flightnr 		+ "</td></tr>" +
+						"<tr><td>Von:</td><td>" 		+ jsn.sflight[0].fromcountry 	+ "</td></tr>" +
+						"<tr><td>Nach:</td><td>" 		+ jsn.sflight[0].tocountry 		+ "</td></tr>" +
+						"<tr><td>Abflug:</td><td>" 		+ jsn.sflight[0].takeoff 		+ "</td></tr>" +
+						"<tr><td>Ankunft: </td><td>" 	+ jsn.sflight[0].arrival 		+ "</td></tr>" +
+						"<tr><td>Preis ab: </td><td>" 	+ jsn.sflight[0].price 			+ "€</td></tr>";
+				
+					
+					document.getElementById("postfligid").value = jsn.sflight[0].id;
+					price = jsn.sflight[0].price;
+					genPrice()
+		   }
+	   }
+		var url_string = window.location;
+		var url = new URL(url_string);
+	   	var fligid = url.searchParams.get("fligid");
+	   	var genUrl = "http://localhost:8080/NerdAirways/booking?fligid=" + fligid;
+		xhttp.open("GET", genUrl, true);
+		xhttp.send();
+	}
+	
+	function genPrice() {
+		console.log(price);
+		var flightclass = JSON.parse(document.getElementById('selfligclass').value);
+		console.log(flightclass);
+		var luggage = JSON.parse(document.getElementById('selluggage').value);
+		console.log(luggage);
+		var finalprice = price * flightclass.cprice * luggage.lprice;
+		var roundprice = finalprice.toFixed(2);
+		document.getElementById("pricetag").innerHTML = roundprice + "€";
+		document.getElementById("postprice").value = roundprice;
+	}
+	
+	
+	</script>
+
+</html>
