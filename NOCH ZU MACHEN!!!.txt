@@ -1,0 +1,24 @@
+	
+flight: eigentlich sollte stadt angezeigt
+
+login: password type=password
+
+
+entitiymanager ist dao class
+	macht änderungen
+	abfragen
+	
+entitymanager factory erzeugt manager,
+
+servletcontext: soll einmal generiert werden und öfter benutzt werden
+		ist quasi eine globale variable
+		
+context merkt sich nur fac
+fac erzeugt manager
+manager entält drop, load, delete, update, select, insert!!!
+testklasse für dao und manager nötig
+anstatt em ef übergeben
+kein em in servlet
+
+simpledate format, für java um 
+thorsten homm
