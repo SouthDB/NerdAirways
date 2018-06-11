@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de-de">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/icon/favicon.ico" />
+    <title>NerdAirways</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/style1.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style2.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style3.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style4.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style5.css">
+    <script src="resources/js/scrips.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> </head>
+
+<body>
+    <header>
+        <h1 id="headline">NerdAirways</h1>
+    </header>
+
+
+    <ul class="navbar" id="navbar">
+        <li class="navlink"><a href="home.html">Home</a></li>
+        <li class="navlink"><a class="active" href="flight.html">Flüge</a></li>
+        <li class="navlink"><a href="review.html">Rezensionen</a></li>
+    <!--
+        <li class="navlink2"><input class="rightinput inputs" type="password" id="passwd" name="passwort" placeholder="Passwort..."> </li>
+        <li class="navlink2"><input class="rightinput inputs" type="text" id="user" name="benutzername" placeholder="Benutzername..."> </li>
+        <li class="navlink2"><input type="submit" name="Login"> </li>
+        <li class="navlink2"><a href="signup.html">Registrieren</a>
+        </li><li class="navlink2"><a href="account.html">Mein Konto</a></li>
+    -->
+    </ul>
+
+
+    <div class="central">
+        <div class=flyoffer>
+            <h2>Flug-Angebote</h2>
+            <table class="table" id="fligtable">
+                <tr class="table_head">
+                    <th>Flugnummer</th>
+                    <th>Von</th>
+                    <th>Nach</th>
+                    <th>Abflug</th>
+                    <th>Ankunft</th>
+                    <th>Preis (ab)</th>
+                    <th>Auslastung</th>
+                    <th>Buchen</th>
+                </tr>
+                <!--
+                <tr>
+                    <td>45121151</td>
+                    <td>Brüssel</td>
+                    <td>Berlin</td>
+                    <td>08.05.2018</td>
+                    <td>04:00</td>
+                    <td>06:00</td>
+                    <td>50€</td>
+                    <td>120/250</td>
+                    <td><a href="booking.html">buchen</a></td>
+                </tr>
+                <tr>
+                    <td>12124512</td>
+                    <td>Brüssel</td>
+                    <td>Madrid</td>
+                    <td>08.05.2018</td>
+                    <td>06:00</td>
+                    <td>08:00</td>
+                    <td>150€</td>
+                    <td>20/250</td>
+                    <td><a href="booking.html">buchen</a></td>
+                </tr>
+                <tr>
+                    <td>315125125</td>
+                    <td>Brüssel</td>
+                    <td>London</td>
+                    <td>08.05.2018</td>
+                    <td>08:00</td>
+                    <td>10:00</td>
+                    <td>110€</td>
+                    <td>123/250</td>
+                    <td><a href="booking.html">buchen</a></td>
+                </tr>
+                <tr>
+                    <td>46636733</td>
+                    <td>Brüssel</td>
+                    <td>Wien</td>
+                    <td>08.05.2018</td>
+                    <td>10:00</td>
+                    <td>12:00</td>
+                    <td>110€</td>
+                    <td>200/250</td>
+                    <td><a href="booking.html">buchen</a></td>
+                </tr>
+                <tr>
+                    <td>9935285235</td>
+                    <td>Brüssel</td>
+                    <td>Rom</td>
+                    <td>08.05.2018</td>
+                    <td>12:00</td>
+                    <td>14:00</td>
+                    <td>140€</td>
+                    <td>3/250</td>
+                    <td><a href="booking.html">buchen</a></td>
+                </tr>-->
+            </table>
+        </div>
+    </div>
+
+
+    <footer>
+		<div>
+			<ul class="foot">
+			    <li class="footli"><p class="lastline"><a class="lastline" href="https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_de.htm">Passagierrechte</a></p></li>
+			    <li class="footli"><p class="lastline"><a class="lastline" href="impressum.html">Impressum</a></li>
+                <li><a class="lastline" href="agb.html">AGB</a></li>
+            </ul>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript">
+
+    window.onload = function loadContent() {
+        console.log('Dokument geladen');
+
+        loginlogout();
+        loadFlight();                       
+   }
+</script>
+
+<script>
+    function loadFlight() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var jsn = JSON.parse(this.responseText);
+               console.log('Hallo');
+               
+               for(var i = 0; i < jsn.flight.length; i++) {
+                   document.getElementById("fligtable").innerHTML += 
+                       "<tr><td>" + jsn.flight[i].flightnr + "</td>" +
+                           "<td>" + jsn.flight[i].fromcountry + "</td>" +
+                           "<td>" + jsn.flight[i].tocountry + "</td>" +
+                           "<td>" + jsn.flight[i].takeoff + "</td>" +
+                           "<td>" + jsn.flight[i].arrival + "</td>" +
+                           "<td>" + jsn.flight[i].price + "€</td>" +
+                           "<td>" + jsn.flight[i].capacity + "\/250</td>" +
+                           "<td><a href= \""      + jsn.flight[i].booklink     + "\">Buchen</a></td></tr>";
+               }
+               console.log('json ok');
+           }
+       }
+       xhttp.open("GET", "http://localhost:8080/NerdAirways/flight", true);
+       xhttp.send();
+   }
+
+
+
+</script>
+
+
+</html>
