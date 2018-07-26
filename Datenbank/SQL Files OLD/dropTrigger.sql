@@ -1,1 +1,0 @@
----drop all Trigger from NerdAirways---

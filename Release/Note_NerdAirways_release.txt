@@ -1,0 +1,24 @@
+NerdAirways Release - Problems & Bugs 
+-------------------------------------
+
+
+>>Datenbankschnittstelle (DAO)
+    DB query "like %" gibt eine collection zurück von Elementen die ÄHNLICH sind (Groß und Kleinschriebung egal)
+        -> SingleResultlist
+    Klassen umd Standartfunktionen ergänzen
+    Entity Manager wird teilweise nicht geschlossen
+        -> tm.close()
+
+>>Services
+    Flightinfo: Filter einbauen -> nur Flüge anzeigen deren STAT ID /= 0 ist
+
+>>Security
+    Login über Session "falsch" -> mit tomcat server realm & client form base umsetzen
+        -> security constraints
+
+>>General
+    Rich Client: Mehr auf Client Seite arbeiten (html Seiten generisch zusammenstellen / ersetzen)
+    Eclipse Project: ServerEngine unter deafult src folder speichern! - (Servlets und DAO Klassen)
+    Eclipse Project: ClientEngine unter Webcontent folder speichern
+    RESTful: Wird nicht verwendet
+    jQuery (Ajax): Wird nicht verwent

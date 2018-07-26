@@ -1,0 +1,44 @@
+Flugunternehmen
+
+NerdAirways
+- Europäische Flüge
+- Von Brüssel nach >> London, Berlin, Madrid, Wien, Rom und zurück
+
+5 Flugzeuge(Boeing 757-300) mit jewals 252 Sitzen
+10 Flüge/Tag im 2h Takt
+Startzeitraum >> 4:00 - 00:00 Uhr
+
+
+Webanwendung:
+
+Bereiche
+
+Muss:
+
+>>Benutzerkonto
+    - Personalien
+    - Zahlungsmittel
+    - Benutzername & PW
+
+>>Angebote
+    - Auflistung der Flüge
+    - Flüge nur einzeln buchbar mit Benutzername & PW
+
+>>Online-Check-in
+    - Einzel Check-in mit Buchungsnummer, Benutzername & PW
+    - Zeitabfrage (24h vor Flugbegin)
+
+Soll:
+
+>> Kundenrezensionen
+    - Bewertungssystem
+    - Kommentarfelder
+>> Meldungen
+    - Verspätungen
+    - Wetterlage
+
+Kann:
+
+>> Oracle Anbindung
+>> cookie-sessions
+>> Ticket Generierung

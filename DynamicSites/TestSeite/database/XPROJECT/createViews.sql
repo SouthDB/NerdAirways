@@ -1,1 +1,0 @@
----create all VIEWS from xProject---

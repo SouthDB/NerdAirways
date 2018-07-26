@@ -1,7 +1,7 @@
 ---INSERT Data from NerdAirways---
 
-INSERT INTO aw_article (headline, content, imgpath) VALUES('Unwetterwarunung', 'Nach den hohen Temperaturen der vergangenen Tage ist mit einem starken Gewitter zu rechnen. Neben intensivem Regen kann es auch Hagel und Sturmböen geben. Sollte dies Auswirkungen auf unsere Flüge haben werden wir sie natürlich rechtzeitig informieren.', '/img/Unwetter.jpg');
-INSERT INTO aw_article (headline, content, imgpath) VALUES('Reiseziel - London', 'Für eine Städtereise ist London nahezu ideal. Die Anreise ist kurz, die Auswahl an Unterkünften riesig und das kulturelle Angebot ist vielfältig. Entdecken Sie die Sehenswürdigkeiten von London bei Ihrem nächsten Kurztrip und genießen Sie die Metropole an der Themse in vollen Zügen. London hält für jeden Besucher etwas bereit. Liebhaber von Geschichte und Architektur können zwischen den Jahrhunderten der Baugeschichte schwelgen – von römischen Mauern bis hin zu modernen Wolkenkratzern. Diejenigen, die Kunst mögen können Stunden in den Museen von London verbringen und dabei Gemälde aus der Renaissance bis hin zu zeitgenössischen Skulpturen bewundern.','/img/London.jpg');
+INSERT INTO aw_article (headline, content, imgpath) VALUES('Unwetterwarunung', 'Nach den hohen Temperaturen der vergangenen Tage ist mit einem starken Gewitter zu rechnen. Neben intensivem Regen kann es auch Hagel und Sturmböen geben. Sollte dies Auswirkungen auf unsere Flüge haben werden wir sie natürlich rechtzeitig informieren.', 'resources/images/storm_1.jpg');
+INSERT INTO aw_article (headline, content, imgpath) VALUES('Reiseziel - London', 'Für eine Städtereise ist London nahezu ideal. Die Anreise ist kurz, die Auswahl an Unterkünften riesig und das kulturelle Angebot ist vielfältig. Entdecken Sie die Sehenswürdigkeiten von London bei Ihrem nächsten Kurztrip und genießen Sie die Metropole an der Themse in vollen Zügen. London hält für jeden Besucher etwas bereit. Liebhaber von Geschichte und Architektur können zwischen den Jahrhunderten der Baugeschichte schwelgen – von römischen Mauern bis hin zu modernen Wolkenkratzern. Diejenigen, die Kunst mögen können Stunden in den Museen von London verbringen und dabei Gemälde aus der Renaissance bis hin zu zeitgenössischen Skulpturen bewundern.','resources/images/london_1.jpg');
 
 INSERT INTO aw_creditcard (cardtype, cardnr, holder) VALUES('Visa', '4556026434970005', 'Paula Bäumler');
 INSERT INTO aw_creditcard (cardtype, cardnr, holder) VALUES('Mastercard', '5270574535610188', 'Joshua Grießhammer');
@@ -51,9 +51,11 @@ INSERT INTO aw_flightstatus (statustext) VALUES('keine Änderung');
 INSERT INTO aw_flightstatus (statustext) VALUES('Verspätung');
 INSERT INTO aw_flightstatus (statustext) VALUES('Ausfall');
 
-INSERT INTO aw_flight (FROMID, TOID, STATID, takeoff, arrival, price) VALUES(1, 2, 1, (TO_DATE('04:00', 'HH24:MI')), (TO_DATE('06:00', 'HH24:MI')), 50);
-INSERT INTO aw_flight (FROMID, TOID, STATID, takeoff, arrival, price) VALUES(1, 3, 1, (TO_DATE('06:00', 'HH24:MI')), (TO_DATE('08:00', 'HH24:MI')), 80);
-INSERT INTO aw_flight (FROMID, TOID, STATID, takeoff, arrival, price) VALUES(1, 4, 1, (TO_DATE('08:00', 'HH24:MI')), (TO_DATE('10:00', 'HH24:MI')), 60);
+INSERT INTO aw_flight (FROMID, TOID, STATID, takeoff, arrival, price) VALUES(1, 2, 1, (TO_DATE('2018-05-28 04:00', 'YYYY-MM-DD HH24:MI')), (TO_DATE('2018-05-28 06:00', 'YYYY-MM-DD HH24:MI')), 50);
+INSERT INTO aw_flight (FROMID, TOID, STATID, takeoff, arrival, price) VALUES(1, 3, 1, (TO_DATE('2018-05-28 06:00', 'YYYY-MM-DD HH24:MI')), (TO_DATE('2018-05-28 08:00', 'YYYY-MM-DD HH24:MI')), 80);
+INSERT INTO aw_flight (FROMID, TOID, STATID, takeoff, arrival, price) VALUES(1, 4, 3, Null, Null, 60);
+INSERT INTO aw_flight (FROMID, TOID, STATID, takeoff, arrival, price) VALUES(1, 5, 1, (TO_DATE('2018-05-28 10:00', 'YYYY-MM-DD HH24:MI')), (TO_DATE('2018-05-28 12:00', 'YYYY-MM-DD HH24:MI')), 60);
+INSERT INTO aw_flight (FROMID, TOID, STATID, takeoff, arrival, price) VALUES(1, 6, 2, (TO_DATE('2018-05-28 14:00', 'YYYY-MM-DD HH24:MI')), (TO_DATE('2018-05-28 18:00', 'YYYY-MM-DD HH24:MI')), 60);
 
 INSERT INTO aw_class (class, price) VALUES('Economy', 1);
 INSERT INTO aw_class (class, price) VALUES('Business', 3.10);

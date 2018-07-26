@@ -1,4 +1,4 @@
----request for last gernerated Sequence Number---
+---request for last gernerated Sequence Number from NerdAirways---
 
 SELECT aw_arti_seq.currval FROM dual;
 SELECT aw_cred_seq.currval FROM dual;

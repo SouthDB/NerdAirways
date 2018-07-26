@@ -1,9 +1,0 @@
-Geändert/Hinzugefügt:
-	flight.html
-	flight_proto.html
-	ServletFlight.java
-	DAOBooking.java
-
-ohne Datenbank und anhand bestehender Komponenten erstellt
-
-noch kein Senden der Daten vorhanden
