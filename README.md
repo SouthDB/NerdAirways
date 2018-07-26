@@ -1,4 +1,4 @@
-# NerdAirways
+# NerdAirways - Web Application
 
 Project for Pr-WebAn SS2018 HS-AlbSig
 
